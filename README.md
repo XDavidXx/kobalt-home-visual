@@ -37,7 +37,11 @@ O resultado de `build/` reproduz o HTML de origem e copia os módulos necessári
 
 ## Passar para a fábrica
 
-Enviar o link deste repositório com acesso de leitura, ou o ZIP desta entrega. Começar por `INTEGRACAO.md` e `MENSAGEM-PARA-FABRICA.txt`.
+O repositório é público. Enviar https://github.com/XDavidXx/kobalt-home-visual para a fábrica e começar por `INTEGRACAO.md` e `MENSAGEM-PARA-FABRICA.txt`.
+
+```sh
+git clone https://github.com/XDavidXx/kobalt-home-visual.git
+```
 
 A entrega é HTML/CSS/JavaScript: a integração na aplicação Next.js/React ainda precisa ser feita pela fábrica. O repositório visual é a referência de apresentação; o repositório canônico da plataforma continua no fluxo atual da fábrica.
 
