@@ -229,8 +229,8 @@
     },
     {
       "file": "source/design-system/README.md",
-      "bytes": 9237,
-      "sha256": "d05cc6adb3092fc5e458a2890b99f64f40eee9c3ddb93b33862953cc2fe14309"
+      "bytes": 8186,
+      "sha256": "cdb73981a140489ddbc13a7331cd3eb586334dd5852578468c7a425621464319"
     },
     {
       "file": "source/design-system/assets/brand/kobalt-blue.svg",
@@ -413,6 +413,11 @@
       "sha256": "9f178d4ac06ccdc3f611f53b5ef1f8b7f841ab9915b395827129d84d1bd45cb1"
     },
     {
+      "file": "source/design-system/examples.html",
+      "bytes": 1755,
+      "sha256": "c0b6ac81a24c41fbe2e95dd97d7212e132f78c328e16a1a9b3fb4348fbed7151"
+    },
+    {
       "file": "source/design-system/fonts.css",
       "bytes": 645,
       "sha256": "30a21ae443bb09ae3090ff6f3342ff4fff263b0df2a2e9ed023410e02462a002"
@@ -463,6 +468,11 @@
       "sha256": "ec4e2d4af2b3e7196df7c8c7547a8d8d5adfffe77931b6366e07afbc2df60e88"
     },
     {
+      "file": "source/home/assets/client-logos.json",
+      "bytes": 1790,
+      "sha256": "7c805a68067279fbbf3468b35df2b4f81c4df88c95465bfce4a5c6b0c6224f60"
+    },
+    {
       "file": "source/home/assets/client-logos/art-cadeiras.png",
       "bytes": 3853,
       "sha256": "ff4d75210a56f7aa862cb04bc51315164e1561f80b32612e85ef7b24ca1abe7e"
@@ -491,11 +501,6 @@
       "file": "source/home/assets/client-logos/zion.png",
       "bytes": 2938,
       "sha256": "cdec68bfd7a915127714d5e6bc3c7270340159d6cddadbfec2d540ff5c74869c"
-    },
-    {
-      "file": "source/home/assets/client-logos.json",
-      "bytes": 1790,
-      "sha256": "7c805a68067279fbbf3468b35df2b4f81c4df88c95465bfce4a5c6b0c6224f60"
     },
     {
       "file": "source/home/assets/connected-workspace.png",

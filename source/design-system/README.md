@@ -40,15 +40,13 @@ Formulários usam label visível e associação `for`/`id`; ajuda e erro ligados
 
 Sem dados, explique o que falta e ofereça uma próxima ação. Após erro, preserve os dados do usuário e ofereça recuperação. Dados de exemplo no guia são demonstrativos, sem representar desempenho real da Kobalt.
 
-## Hero e carrossel de clientes
+## Hero da entrega visual v20
 
-A hero usa `kb-scope` e `data-kb-theme="dark"`, o título H1 em duas linhas na escala de seção (`type.h2`) no desktop, com 28–40 px no celular, o texto Lead e `kb-button kb-button--large`. A composição mantém o cenário de marca, mas seus valores de tipografia, cores, espaçamento, foco e ação vêm dos tokens compartilhados.
+Os fundamentos permanecem na versão 1.1.0. A composição editorial da home foi atualizada em 04/11/2026: pedra mineral em geometria 3D real, logo original à esquerda, H1 inferior esquerdo e apoio à direita. A hero não contém menu, CTA, logos de clientes ou vídeo.
 
-Carregue `logo-carousel.css` e `logo-carousel.js` para o componente `.kb-logo-marquee`. Dentro dele: `.kb-logo-viewport`, `.kb-logo-track`, uma `.kb-logo-group` com `role="list"` e itens `.kb-logo-item` com `role="listitem"`. Cada item contém uma imagem com nome do cliente em `alt`. O script conta os itens e cria apenas uma cópia visual com `aria-hidden` e `inert`; a lista acessível mantém os seis nomes uma única vez.
+O scroll ilumina fissuras, conduz a câmera pelo interior, reorganiza cristais em módulos metálicos e revela a frase aprovada sobre branco. Os arquivos ativos e o ciclo de vida a adaptar para React estão documentados em `../../INTEGRACAO.md`.
 
-A janela mostra três logos. A duração de 32 segundos por ciclo vem de `motion.logos`; a faixa tem máscara em degradê nas bordas. A largura acompanha a descrição da hero (`layout.hero-reading`), logo abaixo do botão. A animação pausa com hover/foco, fora da tela e com a aba oculta. Em `prefers-reduced-motion`, o componente mostra todos os logos em grade estática, sem máscara. Sem JavaScript também exibe a grade. O grupo recebe `tabindex="0"` para permitir foco pelo teclado.
-
-A composição atual faz a queda metálica tocar diretamente a borda superior do vídeo. A luz se abre sobre a borda e acompanha seu canto arredondado, com o ponto de contato recalculado conforme o tamanho do quadro. O vídeo atravessa a divisão entre o fundo escuro e a área branca, em rolagem nativa e contínua. Essa composição pertence à home; não altera os tokens globais. O clipe atual é demonstrativo, com controles nativos e reprodução sem som apenas quando visível. A pausa manual é preservada. Com movimento reduzido, o cenário fica estático e o vídeo exige reprodução manual.
+O carrossel de clientes continua disponível como componente opcional em `logo-carousel.css` e `logo-carousel.js`. Ele não faz parte da hero desta entrega. Seu componente `.kb-logo-marquee` pausa por foco/hover, fora de vista, em aba oculta e conforme a preferência por movimento reduzido.
 
 ## Layout e responsividade
 
