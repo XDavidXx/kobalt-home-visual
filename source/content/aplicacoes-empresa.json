@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-29",
+  "source": "Escopo informado diretamente pelo usuário: RH, finanças, entendimento de impostos, reabilitação financeira, contratos, automações cotidianas, ERP completo, CRM automatizado, lançamentos de valores, conciliação automática e aplicativos de gestão.",
+  "title": "Inteligência para a empresa inteira.",
+  "intro": "Do trabalho de cada dia à gestão completa, construímos o que a sua operação precisa.",
+  "areas": [
+    {
+      "id": "rh",
+      "name": "RH e pessoas",
+      "icon": "people",
+      "headline": "Menos tempo para fechar o RH.",
+      "summary": "Folha, cadastros e documentos organizados para a equipe.",
+      "examples": [
+        "Organização das informações dos funcionários.",
+        "Preparação da folha e apoio aos fechamentos de RH.",
+        "Centralização de documentos e rotinas da equipe."
+      ]
+    },
+    {
+      "id": "financas",
+      "name": "Financeiro e recuperação",
+      "icon": "finance",
+      "headline": "Controle do caixa para decidir.",
+      "summary": "Lançamentos, conciliação automática e organização para recuperar a saúde financeira.",
+      "examples": [
+        "Lançamento e classificação de valores.",
+        "Conciliação automática de movimentações.",
+        "Organização de contas a pagar e receber.",
+        "Visão do caixa e dos resultados para apoiar a recuperação financeira."
+      ]
+    },
+    {
+      "id": "fiscal",
+      "name": "Fiscal e impostos",
+      "icon": "tax",
+      "headline": "Impostos mais fáceis de acompanhar.",
+      "summary": "Informações fiscais organizadas para entender obrigações e valores.",
+      "examples": [
+        "Consolidação de documentos e informações fiscais.",
+        "Consulta e entendimento dos impostos da operação.",
+        "Organização de informações e prazos para os responsáveis."
+      ]
+    },
+    {
+      "id": "contratos",
+      "name": "Contratos e documentos",
+      "icon": "contract",
+      "headline": "Prazos e condições à vista.",
+      "summary": "Contratos organizados para acompanhar o que foi combinado.",
+      "examples": [
+        "Centralização e consulta de contratos.",
+        "Organização de vigências, valores e vencimentos.",
+        "Acompanhamento de prazos e renovações."
+      ]
+    },
+    {
+      "id": "crm",
+      "name": "Comercial e CRM",
+      "icon": "crm",
+      "headline": "Cada oportunidade com continuidade.",
+      "summary": "CRM automatizado para acompanhar clientes e o próximo passo comercial.",
+      "examples": [
+        "Organização de contatos, clientes e oportunidades.",
+        "Atualização do histórico e das etapas do relacionamento.",
+        "Continuidade de tarefas e acompanhamentos comerciais.",
+        "Atendimento integrado ao histórico do cliente."
+      ]
+    },
+    {
+      "id": "rotina",
+      "name": "Rotinas e aplicativos",
+      "icon": "routine",
+      "headline": "O trabalho segue sem redigitar.",
+      "summary": "Aplicativos de gestão e automações para tarefas de uso cotidiano.",
+      "examples": [
+        "Aplicativos sob medida para acompanhar a operação.",
+        "Automação de tarefas repetitivas e passagem de informações.",
+        "Integração entre sistemas e rotinas da equipe."
+      ]
+    }
+  ],
+  "editorial": "As áreas apresentam possibilidades de desenvolvimento sob medida com base no escopo declarado pelo usuário. Não são descritas como um catálogo de módulos prontos nem como funcionalidades comprovadas nas duas telas públicas. Apoio financeiro e fiscal não foi convertido em promessa de recuperação de valores, economia tributária ou resultado garantido. O detalhamento do projeto deve partir da operação do cliente.",
+  "implementation": {
+    "eyebrow": "IMPLEMENTAÇÃO DE IA",
+    "title": "IA trabalhando dentro da sua empresa.",
+    "text": "Implementamos funcionários de IA que executam tarefas e trabalham com sua equipe. Criamos a tecnologia e conectamos as ferramentas para que a IA faça parte da operação.",
+    "cta": "Quero implementar IA"
+  }
+}

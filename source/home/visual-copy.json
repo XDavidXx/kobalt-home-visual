@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-29",
+  "revision": "Ícones oficiais Font Awesome Free 6.7.2 em SVG incorporado",
+  "hero_lead": "Adaptamos seus processos para que funcionem de forma autônoma, com tecnologia de última geração.",
+  "solution_summaries": [
+    "Mais capacidade de execução.",
+    "Criada do zero para sua operação.",
+    "Informações e trabalho em movimento."
+  ],
+  "references": [
+    {
+      "name": "GoEnablers",
+      "url": "https://goenablers.io/",
+      "observed": "Abertura centralizada, poucas frases e grandes intervalos vazios entre os argumentos."
+    },
+    {
+      "name": "Edolus",
+      "url": "https://edolus.com/",
+      "observed": "Cenas visuais que ocupam a tela e deixam o texto em segundo plano; transições sustentadas por imagem."
+    },
+    {
+      "name": "W3C — WCAG 2.2, contraste mínimo",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+      "observed": "Critério AA: 4,5:1 para texto comum e 3:1 para texto grande. A leitura também depende do tamanho, peso e contexto."
+    },
+    {
+      "name": "W3C — ampliação de texto",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text",
+      "observed": "O texto deve poder ser ampliado até 200% sem perda de conteúdo ou funcionalidade."
+    },
+    {
+      "name": "W3C — reflow",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow",
+      "observed": "Conteúdo deve se adaptar à largura equivalente a 320 pixels CSS, com as exceções previstas pelo critério."
+    },
+    {
+      "name": "W3C — padrão de acordeão",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/",
+      "observed": "Cabeçalhos com botões, estado expandido e associação entre acionador e painel."
+    },
+    {
+      "name": "W3C — controle de atualizações automáticas",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "observed": "Conteúdo que se atualiza automaticamente deve oferecer um mecanismo de pausa ou controle equivalente."
+    }
+  ],
+  "decisions": [
+    "O que construímos apresentado em três painéis com imagens conceituais e descrições sob demanda. Sem etiquetas numeradas no topo; títulos, descrições e ação Explorar permanecem na parte inferior.",
+    "Ecossistema geral: informações da operação entram; funcionários de IA executam tarefas; plataformas criadas e integradas organizam o trabalho; a equipe acompanha os resultados e decide.",
+    "Fundo do ecossistema com uma única imagem estática, sem vídeo ou movimento. Sobreposição preta uniforme com 70% de opacidade sobre a imagem, atrás do título e dos cards.",
+    "Aplicações organizadas em seis frentes visíveis: RH e pessoas, financeiro e recuperação, fiscal e impostos, contratos e documentos, comercial e CRM, rotinas e aplicativos. Cada frente traz um benefício concreto e exemplos expansíveis; o card final destaca a implementação de IA na operação, com equipe, processos, dados e ferramentas. O ERP deixa de ocupar o destaque.",
+    "Branco e gelo como superfícies principais, com grafite no ecossistema e no método e azul no encerramento.",
+    "Hero com degradê amplo e difuso em azul, lavanda e gelo. Não há esferas, formas delimitadas ou animação automática. A luz reage discretamente ao cursor, com centro claro para leitura e versão estática para toque e movimento reduzido.",
+    "Os seis logos reais dos clientes aparecem abaixo do botão da hero, sem título de apresentação e sem seção separada. A apresentação é monocromática, preserva as proporções e usa seis colunas no desktop e três no celular.",
+    "Nos três painéis de O que construímos, imagem sem filtro de escurecimento; degradê limitado à faixa inferior que contém título, descrição e ação.",
+    "Fluxo geral com quatro cores e iluminação acumulativa: cada card permanece totalmente iluminado após enviar o sinal ao seguinte. Os quatro ficam acesos até o fim da etapa; apagam juntos e o ciclo recomeça. No celular o percurso é vertical; movimento reduzido mantém a versão estática colorida.",
+    "Cabeçalho e rodapé usam o arquivo SVG original da marca Kobalt publicado no site atual, preservando desenho, cores e proporções.",
+    "Cases logo após o ecossistema e antes das aplicações por área. Cinco painéis selecionáveis apresentam Grancereal (70% menos tempo no fechamento do RH), restaurantes (60% menos tempo administrativo), oficina (40% menos tempo e 10% mais receita com o mesmo custo), Deguste (30% menos tempo para gerar a folha) e sistemas (25% menos custo, sem cliente atribuído).",
+    "Como fazemos usa um único título e quatro etapas em acordeão: diagnóstico, construção, validação e evolução. Uma explicação curta aparece na etapa aberta. A cada 7 segundos, a próxima etapa abre e atualiza o modelo 3D; não há contador repetido, subtítulo da etapa nem bloco separado de entrega. Uma linha fina indica a progressão. O botão de pausar/reproduzir foi removido a pedido do usuário.",
+    "A seção Visão do todo foi retirada da home por repetir áreas conectadas, regras do negócio e pessoas no controle, já explicadas no ecossistema. O método é seguido diretamente pelas perguntas frequentes. O item A Kobalt foi removido dos menus para não apontar para uma seção inexistente.",
+    "Tecnologia sob medida substitui sistemas sob medida nos títulos e na apresentação comercial. Criada do zero para sua operação explicita o desenvolvimento. Plataformas, aplicativos, ERP e CRM esclarecem a entrega; inteligência sob medida não é usada como rótulo único porque deixaria a construção de software menos clara. As métricas de custo com sistemas e a pergunta sobre ferramentas já utilizadas preservam seu significado original.",
+    "O selo KOBALT / INTELIGÊNCIA EM OPERAÇÃO foi retirado do topo da hero. A seta de continuação leva diretamente a O que construímos.",
+    "Revisão de legibilidade: descrições principais de 18 px (17 px na hero móvel), textos de cards e botões de 16 px, etiquetas e observações de 12–14 px. Os títulos grandes preservam sua função. Entrelinha de leitura entre 1,6 e 1,8, cores de apoio com contraste reforçado e unidades rem nos textos menores. No celular, as etapas do método passam a duas colunas e o cabeçalho usa Conversar para acomodar a fonte maior.",
+    "A escala de tamanhos é uma escolha de legibilidade do projeto; a WCAG não define um tamanho universal para todo texto. Foram usados como critérios separados o contraste mínimo de 4,5:1 para texto comum, 3:1 para texto grande, ampliação de texto e reflow. As medições de contraste registram pares de cores sólidos e não equivalem a certificação integral de acessibilidade.",
+    "A reprodução do acordeão para fora de vista ou com a aba oculta, preserva o tempo restante ao pausar e respeita a preferência por movimento reduzido. A navegação manual funciona por clique, Enter, Espaço e teclas de direção, sem mover o foco nas trocas automáticas.",
+    "O modelo 3D do método aparece sem legenda, contador ou instrução de mouse abaixo da imagem. O acordeão e sua rotação de 7 segundos permanecem sincronizados.",
+    "Espaço entre o título Da ideia à operação e o acordeão: 72 px no desktop, 60 px no tablet e 52 px no celular. A troca automática de 7 segundos segue ativa, com suspensão temporária por foco, leitura com o mouse, aba oculta ou seção fora de vista e com respeito à preferência por movimento reduzido.",
+    "O próximo movimento é seu deixa de ser uma faixa de tela inteira. A chamada fica em um card dentro de Antes de começar, abaixo das duas colunas do FAQ, ocupando a largura do conteúdo e com altura mínima de 30svh. O título é preservado em tamanho menor, junto ao botão e à observação comercial; a frase de apoio repetida foi retirada. No celular o card cresce conforme o conteúdo para preservar a leitura.",
+    "Auditoria responsiva em 17 larguras de 320 a 1920 px: cases com faixa rolável até 700 px, menu móvel com altura limitada e rolagem em telas baixas, e menor intervalo entre os quatro cards do ecossistema até 1050 px. Versão vertical do fluxo preservada no celular.",
+    "Os quatro ícones do ecossistema usam SVGs centralizados nos círculos. O símbolo de IA passou a ser vetorial para eliminar o desalinhamento da linha de base da fonte. Desenhos e contêineres conferidos no desktop e no celular.",
+    "A home usa os SVGs oficiais do Font Awesome Free 6.7.2: ecossistema, aplicações, botões, setas, menu, acordeões e modelo 3D. Os arquivos ficam incorporados ao HTML, preservam a atribuição e não usam emojis, glifos de sistema, kit externo ou webfont de ícones. O modelo troca SVGs completos, com viewBox próprio, a cada etapa."
+  ],
+  "copy_note": "A copy completa segue preservada no relatório. Esta camada contém a redação condensada usada na apresentação visual.",
+  "palette": {
+    "light": "Hero com logos dos clientes, soluções, aplicações, FAQ e rodapé",
+    "dark": "Ecossistema e método",
+    "accent": "Azul no card de implementação de IA, no card de contato dentro do FAQ e nas chamadas para ação"
+  },
+  "typography": {
+    "title": "Revisão de legibilidade da prévia",
+    "finding": "A medição da página renderizada confirmou descrições de 11–14 px, ações de 10–12 px e etiquetas de 6–8 px. A dificuldade de leitura relatada motivou uma escala maior, com mais contraste e entrelinha.",
+    "scale_note": "Os tamanhos abaixo são escolhas do projeto, não um mínimo universal definido pela WCAG. Os títulos grandes já cumpriam sua função e foram preservados.",
+    "rows": [
+      {
+        "role": "Descrição da hero",
+        "before": "14 px desktop / 12 px celular",
+        "after": "18 px desktop / 17 px celular"
+      },
+      {
+        "role": "Textos de cards",
+        "before": "11–13 px",
+        "after": "16 px"
+      },
+      {
+        "role": "Método e respostas do FAQ",
+        "before": "12–13 px",
+        "after": "16–18 px"
+      },
+      {
+        "role": "Botões e ações",
+        "before": "10–12 px",
+        "after": "16 px; cabeçalho de 14–15 px"
+      },
+      {
+        "role": "Etiquetas, números de etapa e observações",
+        "before": "6–9 px em vários pontos",
+        "after": "12–14 px"
+      },
+      {
+        "role": "Rodapé",
+        "before": "7–11 px",
+        "after": "13–16 px"
+      }
+    ],
+    "criteria": "Contraste: 4,5:1 para texto comum e 3:1 para texto grande, segundo WCAG 2.2 AA. A revisão também considera ampliação, reflow, hierarquia, contraste de fundos, comprimento de linha e espaço entre linhas.",
+    "contrast_note": "Oito pares de cores sólidos foram calculados: resultados entre 5,09:1 e 12,38:1. Esse recorte não certifica todos os fundos com imagem, transparências, estados ou requisitos de acessibilidade.",
+    "responsive_note": "Acordeão vertical do método no celular, fontes de leitura em rem e conteúdo sem alturas máximas que cortem os parágrafos. O card de contato cresce conforme o texto em telas pequenas.",
+    "verification_note": "Medições de fonte no desktop e no celular, inspeção visual de blocos representativos, navegação por teclado, expansão de conteúdos e reflow em largura abaixo de 320 pixels CSS. O atalho de ampliação do navegador não alterou a escala nesta ferramenta; o ensaio de zoom real a 200% não foi concluído."
+  },
+  "responsive_audit": {
+    "title": "Revisão responsiva da home · 29/10/2026",
+    "summary": "Página inteira conferida no navegador integrado, com medidas do layout renderizado, inspeções visuais e interação por clique e teclado. A prévia foi corrigida e verificada novamente.",
+    "widths": [
+      320,
+      360,
+      390,
+      430,
+      580,
+      581,
+      700,
+      701,
+      768,
+      850,
+      851,
+      1024,
+      1100,
+      1101,
+      1280,
+      1440,
+      1920
+    ],
+    "findings": [
+      {
+        "priority": "P2",
+        "area": "Abas dos cases",
+        "before": "Em 583 px, a aba Restaurantes tinha cerca de 95 px de largura e o conteúdo chegava a 111 px, excedendo a área disponível.",
+        "after": "A faixa com rolagem horizontal passa a ser usada até 700 px, com abas de 168 px e seleção que traz a aba ativa para a área visível."
+      },
+      {
+        "priority": "P2",
+        "area": "Menu no celular horizontal",
+        "before": "Em 761 × 311 px, o menu chegava a 353 px de altura total na tela. O fim da navegação ficava abaixo da área visível, sem rolagem própria.",
+        "after": "O menu usa a altura disponível abaixo do cabeçalho e rolagem vertical interna. A última opção foi acionada e o menu fechou corretamente."
+      },
+      {
+        "priority": "P3",
+        "area": "Ecossistema perto de 850 px",
+        "before": "O título Funcionários de IA excedia em aproximadamente 5 px a sua coluna de texto, embora ainda permanecesse dentro da borda do card.",
+        "after": "O intervalo entre cards passou de 36 para 24 px nessa faixa, abrindo espaço para o texto e mantendo as linhas de conexão."
+      }
+    ],
+    "checks": [
+      "Sem rolagem horizontal global e sem texto excedendo os blocos medidos nas 17 larguras finais. A faixa de cases continua rolável por escolha de layout.",
+      "Três cards de soluções, seis cards de aplicações, cinco cases e cinco respostas abertos individualmente em 320 px, sem corte de texto.",
+      "Menu aberto, fechado por Escape, navegação interna e fechamento ao mudar para desktop. Cases navegados por clique e pelas teclas de direção e End.",
+      "Quatro etapas do método selecionadas, com um painel aberto e descrição 3D correspondente. Navegação por direção e Enter confirmada; foco de teclado suspende a troca automática.",
+      "Logos e imagens carregados após visitar seus blocos. Rodapé, diagrama de IA e card de contato conferidos por medidas em telas estreitas.",
+      "O card de contato permanece abaixo do FAQ ao abrir respostas e ocupa a largura combinada das colunas no desktop. No celular, cresce para acomodar o conteúdo."
+    ],
+    "limits": "Ensaios feitos em viewports do navegador integrado, sem validação em aparelhos físicos ou em outros motores. Algumas capturas de áreas móveis profundas ficaram vazias por falha do capturador; nesses estados foram usados o DOM renderizado, medidas e interações. Não foi concluído ensaio de zoom real a 200%; reflow foi conferido até 320 px. Não equivale a certificação integral de acessibilidade.",
+    "status": "Três ajustes concluídos na prévia local. Nenhuma publicação realizada."
+  },
+  "hero_direction": {
+    "headline": "Implemente funcionários de IA dentro da sua operação.",
+    "composition": "Pedra mineral azul centralizada no espaço. Logo original à esquerda, sem menu. H1 no canto inferior esquerdo; texto de apoio no canto inferior direito. Sem botão de CTA nem carrossel de logos na hero.",
+    "asset": "assets/hero/mineral-azul-no-espaco.png",
+    "primary_brand_color": "#315fe5",
+    "reference": "https://noddal.xyz/",
+    "reference_use": "Objeto monumental central, fundo espacial e textos nos cantos inferiores; arte mineral original da Kobalt.",
+    "rendering": "Three.js 0.180.0 local: geodo fechado com frente, verso, laterais e fissura; 1.840 cristais externos facetados, 300 cristais no túnel e 32 módulos com morph targets de posição e normal. Materiais físicos, sombras e reflexos calculados em tempo real. Nenhuma fotografia é aplicada à geometria.",
+    "light": "Feixe azul vertical ilumina a fissura; veios luminosos conduzem a câmera pelo mineral e se tornam conexões com pulsos entre os módulos metálicos.",
+    "motion": "Câmera e transformações acompanham a rolagem nativa em um palco fixo. Resposta discreta ao cursor antes da travessia. Animação suspensa fora de vista e com aba oculta. Movimento reduzido mantém pedra 3D estática e frase no fluxo normal. Imagem preservada somente como fallback caso WebGL não esteja disponível."
+  },
+  "hero_design_system": {
+    "version": "1.1.0",
+    "theme": "dark",
+    "heading": "Escala editorial responsiva Archivo; 44–76 px no desktop, 32–44 px no celular.",
+    "lead": "type.lead",
+    "description_and_logos_max_width": "layout.hero-reading",
+    "heading_semantics": "h1",
+    "heading_mobile_size": "clamp(1.75rem,8vw,2.5rem)"
+  },
+  "hero_material": {
+    "direction": "Fluxo de metal líquido azul, reflexos de aço polido e névoa procedural em movimento.",
+    "reference": "https://huly.io/",
+    "approach": "Animação procedural original sobre o shader Laser Flow adaptado, preservando a licença.",
+    "metal_surface": "O fluxo encontra diretamente a borda superior do vídeo. A luz se abre horizontalmente e acompanha o canto arredondado, seguindo a referência Huly com a paleta azul Kobalt.",
+    "palette": "Azul Kobalt, prateado frio e violeta discreto.",
+    "brand_metaphor": "Adaptação da inteligência à operação da empresa; sem afirmação científica sobre ligas metálicas.",
+    "reduced_motion": "Estado estático t=2; sem animação quando solicitado pelo dispositivo.",
+    "render_limit": {
+      "desktop": 1600,
+      "mobile": 1100
+    },
+    "placement": "Rodapé. A queda metálica encontra a borda superior do bloco de informações; efeito preservado com WebGL e fallback."
+  },
+  "hero_scroll_transition": {
+    "behavior": "Uma cena 3D contínua controlada pelo scroll: despertar da pedra, entrada pela fissura, cristais se reorganizando em módulos metálicos conectados, clareamento progressivo e frase única. Rolagem nativa, sem captura da roda do mouse. Palco de 420svh no desktop e 380svh no celular; o restante da página segue em fluxo normal.",
+    "statement": "Criamos funcionários de IA e tecnologia sob medida para sua empresa operar melhor.",
+    "content": "Vídeo removido. Selo O que construímos e título anterior substituídos pela frase única; os três cards continuam abaixo com respiro amplo.",
+    "sequence": [
+      "Texto da hero desaparece; feixe e fissuras azuis se intensificam.",
+      "Câmera atravessa a abertura física e percorre o interior com cristais nas laterais.",
+      "32 cristais se transformam em módulos metálicos, organizados em oito conjuntos conectados ao núcleo.",
+      "O ambiente clareia e revela a frase aprovada, sem vídeo."
+    ],
+    "implementation": "Geometria real, sem relevo obtido de imagem, sem plano de fotografia deslocado e sem explosão."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Kobalt — entrega visual da home",
+  "date": "2026-11-04",
+  "reference_url": "https://kobalt-home-2026.codex832867.chatgpt.site",
+  "reference_version": 20,
+  "source_commit": "21197e1a1b346796c186b29d633b4b67c1206ec5",
+  "source_sha256": "1b69a15c37956d2677dfb72c3f0a3c4da24a13610eae02ce9f7bc3e5c341c204",
+  "repository": "https://github.com/XDavidXx/kobalt-home-visual",
+  "integration_status": "Referência pronta; adaptação ao cockpit ainda necessária.",
+  "dependencies": {
+    "three": "0.180.0",
+    "fontawesome": "Free 6.7.2"
+  }
+}

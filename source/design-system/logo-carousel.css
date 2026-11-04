@@ -1,0 +1,19 @@
+/* Kobalt logo strip. One original list; logo-carousel.js creates an inaccessible visual copy. */
+.kb-logo-marquee{--kb-logo-columns:3;--kb-logo-count:6;width:100%;min-width:0;position:relative;border-radius:var(--kb-radius-sm)}
+.kb-logo-viewport{width:100%;overflow:hidden}
+.kb-logo-track{width:100%;transform:translate3d(0,0,0)}
+.kb-logo-group{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:center;row-gap:var(--kb-space-4)}
+.kb-logo-copy{display:none}
+.kb-logo-item{height:var(--kb-size-target);display:flex;align-items:center;justify-content:center;min-width:0;padding-inline:var(--kb-space-4)}
+.kb-logo-item img{display:block;width:auto;height:auto;max-width:min(100%,128px);max-height:32px;object-fit:contain;filter:var(--kb-logo-filter);opacity:.82}
+.kb-logo-item--art img{max-width:38px}
+.kb-logo-marquee[data-logo-ready] .kb-logo-viewport{-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.kb-logo-marquee[data-logo-ready] .kb-logo-track{display:flex;width:calc(200% * var(--kb-logo-count) / var(--kb-logo-columns));animation:kb-logo-scroll var(--kb-motion-logos) linear infinite;animation-play-state:paused}
+.kb-logo-marquee[data-logo-ready] .kb-logo-group{flex:0 0 50%;width:50%;grid-template-columns:repeat(var(--kb-logo-count),minmax(0,1fr));gap:0}
+.kb-logo-marquee[data-logo-ready] .kb-logo-copy{display:grid}
+.kb-logo-marquee[data-logo-state="playing"] .kb-logo-track{animation-play-state:running}
+.kb-logo-marquee[data-logo-ready]:hover .kb-logo-track,.kb-logo-marquee[data-logo-ready]:focus-within .kb-logo-track{animation-play-state:paused}
+.kb-logo-marquee:focus-visible{outline:3px solid var(--kb-focus);outline-offset:6px}
+@keyframes kb-logo-scroll{to{transform:translate3d(-50%,0,0)}}
+@media(max-width:640px){.kb-logo-item{padding-inline:var(--kb-space-3)}.kb-logo-item img{max-height:28px}.kb-logo-item--art img{max-width:32px}}
+@media(prefers-reduced-motion:reduce){.kb-logo-marquee[data-logo-ready] .kb-logo-viewport{-webkit-mask-image:none;mask-image:none}.kb-logo-marquee[data-logo-ready] .kb-logo-track{display:block;width:100%;animation:none;transform:none}.kb-logo-marquee[data-logo-ready] .kb-logo-group{width:100%;grid-template-columns:repeat(3,minmax(0,1fr));row-gap:var(--kb-space-4)}.kb-logo-marquee[data-logo-ready] .kb-logo-copy{display:none}}

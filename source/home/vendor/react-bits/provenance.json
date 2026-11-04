@@ -1,0 +1,13 @@
+{
+  "source": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/src/content/Animations/LaserFlow/LaserFlow.jsx",
+  "retrieved": "2026-11-03",
+  "sha256": "667c00ca56cc7e25053e6a21acbe5bb054e8e6cf8549263f83abb0063db24ed3",
+  "license": "MIT + Commons Clause",
+  "usage": "Adapted shader integrated into the Kobalt website, with a custom flowing metal floor and vanilla JavaScript lifecycle.",
+  "changes": [
+    "fixed inverted smoothstep",
+    "added reflective metal floor",
+    "removed React wrapper and reveal feature",
+    "adapted palette and layout"
+  ]
+}

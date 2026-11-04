@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-29",
+  "title": "Copy da nova home da Kobalt",
+  "status": "Proposta revisada de posicionamento e copy",
+  "intro": "A home apresenta funcionários de IA, tecnologia sob medida e integração em um único ecossistema de trabalho. A expressão tecnologia sob medida valoriza a construção do zero; plataformas, aplicativos, ERP e CRM tornam a entrega concreta.",
+  "source_note": "Posicionamento e resultados foram fornecidos pelo usuário. Clientes, aplicações, implantação, acompanhamento e diagnóstico gratuito também foram conferidos no site oficial. Percentuais descrevem operações específicas e não foram extrapolados para todos os clientes.",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero / posicionamento",
+      "status": "Redação revisada conforme pedido de valorizar a construção do zero",
+      "title": "Criamos funcionários de IA e tecnologia sob medida para sua empresa avançar.",
+      "paragraphs": [
+        "Entendemos sua operação. Criamos do zero a tecnologia que faz tudo trabalhar junto."
+      ],
+      "cta": "Vamos conversar sobre sua operação",
+      "editorial": "Tecnologia sob medida é a expressão principal de posicionamento. A construção do zero e os exemplos de plataformas e aplicativos esclarecem o escopo. Não foram acrescentadas promessas de propriedade intelectual, exclusividade contratual, preços ou garantias de resultado. A hero não tem selo acima do título. Os seis logos de clientes aparecem abaixo do botão, sem uma seção separada; os nomes vêm da home oficial e não implicam associação a serviços ou métricas específicas. O título de apresentação dos logos foi retirado; permanecem apenas as marcas abaixo do botão, sobre fundo de degradê suave e difuso.",
+      "clients": [
+        "Zion Private Finance",
+        "MK Autocenter",
+        "Neptunia",
+        "Grancereal",
+        "MAAT",
+        "Art Cadeiras"
+      ],
+      "sources": [
+        {
+          "label": "Clientes publicados na home",
+          "url": "https://kobalt.com.br/#titulo-marcas"
+        }
+      ]
+    },
+    {
+      "id": "solucoes",
+      "name": "Soluções e aplicações",
+      "status": "Proposta de copy",
+      "title": "Uma operação conectada, construída para o seu negócio.",
+      "paragraphs": [
+        "Criamos funcionários de IA, desenvolvemos tecnologia sob medida e conectamos as ferramentas da sua operação. Cada parte tem uma função clara e trabalha em conjunto para o negócio avançar.",
+        "Na operação, pedidos, dados e documentos entram no ecossistema. Funcionários de IA realizam tarefas seguindo as regras da empresa. Plataformas criadas e integradas organizam o trabalho, enquanto sua equipe acompanha os resultados e toma as decisões."
+      ],
+      "items": [
+        {
+          "title": "Funcionários de IA",
+          "text": "Preparados para assumir tarefas do dia a dia, organizar informações e dar continuidade ao trabalho, com funções e limites definidos para a sua empresa."
+        },
+        {
+          "title": "Tecnologia sob medida",
+          "text": "Projetamos e desenvolvemos do zero plataformas, aplicativos e ferramentas de gestão para os processos e as regras da sua empresa."
+        },
+        {
+          "title": "Um ecossistema conectado",
+          "text": "Integramos pessoas, funcionários de IA e as plataformas da empresa para que as informações circulem e cada etapa do trabalho dê continuidade à próxima."
+        }
+      ],
+      "editorial": "As três frentes seguem o escopo declarado pelo usuário: criar funcionários de IA, desenvolver tecnologia do zero e integrar a operação. A expressão tecnologia sob medida valoriza esse desenvolvimento e é concretizada por plataformas, aplicativos e ferramentas de gestão. O ecossistema usa imagem estática com sobreposição preta uniforme de 70% e quatro papéis conectados. Os cards acendem cumulativamente e reiniciam juntos ao final do ciclo. As etiquetas numeradas superiores foram removidas dos três cards; permanecem os títulos e as descrições inferiores."
+    },
+    {
+      "id": "cases",
+      "name": "Cases e resultados",
+      "status": "Resultados fornecidos pelo usuário · métricas esclarecidas na conversa",
+      "title": "O resultado aparece na operação.",
+      "paragraphs": [
+        "Resultados em rotinas de RH, funções administrativas, oficina e custos com sistemas."
+      ],
+      "items": [
+        {
+          "title": "Grancereal",
+          "text": "70% de redução no tempo de fechamento mensal do RH da Grancereal."
+        },
+        {
+          "title": "Restaurantes",
+          "text": "60% de redução no tempo dedicado às funções administrativas de restaurantes."
+        },
+        {
+          "title": "Oficina",
+          "text": "40% de redução de tempo em rotinas da oficina e 10% de aumento de receita, mantendo o mesmo custo."
+        },
+        {
+          "title": "Deguste",
+          "text": "30% de redução no tempo para gerar a folha de pagamento da Deguste."
+        },
+        {
+          "title": "Sistemas",
+          "text": "25% de redução no custo com sistemas. O cliente não foi associado a esse dado na prévia."
+        }
+      ],
+      "editorial": "Os resultados vêm do material enviado pelo usuário, sem auditoria independente. Não foram fornecidos período, valores de base, horas absolutas ou descrição técnica de cada implantação. Os 60%, 40%, 30% e 70% se referem a tempo. A oficina também registrou 10% de aumento de receita com o mesmo custo. Os 25% se referem a custo com sistemas, sem associação confirmada a um cliente. Não foram associados resultados anônimos aos logos de clientes. Apresentação proposta: cinco painéis com seleção manual, logo após o ecossistema e antes das aplicações por área. A Grancereal abre o bloco; a oficina reúne tempo e receita no mesmo painel. O menu Na prática leva a esta seção.",
+      "placement": "Logo após a explicação do ecossistema e antes das aplicações por área. Um painel por operação, com resultado principal e contexto; a oficina reúne tempo e receita porque essa relação foi confirmada."
+    },
+    {
+      "id": "aplicacoes",
+      "name": "Aplicações por área e implementação de IA",
+      "status": "Escopo ampliado informado pelo usuário",
+      "title": "Inteligência para a empresa inteira.",
+      "paragraphs": [
+        "Do trabalho de cada dia à gestão completa, construímos o que a sua operação precisa.",
+        "IA trabalhando dentro da sua empresa. Implementamos funcionários de IA que executam tarefas e trabalham com sua equipe. Criamos a tecnologia e conectamos as ferramentas para que a IA faça parte da operação."
+      ],
+      "items": [
+        {
+          "title": "RH e pessoas — Menos tempo para fechar o RH.",
+          "text": "Folha, cadastros e documentos organizados para a equipe. Podemos construir: Organização das informações dos funcionários; Preparação da folha e apoio aos fechamentos de RH; Centralização de documentos e rotinas da equipe."
+        },
+        {
+          "title": "Financeiro e recuperação — Controle do caixa para decidir.",
+          "text": "Lançamentos, conciliação automática e organização para recuperar a saúde financeira. Podemos construir: Lançamento e classificação de valores; Conciliação automática de movimentações; Organização de contas a pagar e receber; Visão do caixa e dos resultados para apoiar a recuperação financeira."
+        },
+        {
+          "title": "Fiscal e impostos — Impostos mais fáceis de acompanhar.",
+          "text": "Informações fiscais organizadas para entender obrigações e valores. Podemos construir: Consolidação de documentos e informações fiscais; Consulta e entendimento dos impostos da operação; Organização de informações e prazos para os responsáveis."
+        },
+        {
+          "title": "Contratos e documentos — Prazos e condições à vista.",
+          "text": "Contratos organizados para acompanhar o que foi combinado. Podemos construir: Centralização e consulta de contratos; Organização de vigências, valores e vencimentos; Acompanhamento de prazos e renovações."
+        },
+        {
+          "title": "Comercial e CRM — Cada oportunidade com continuidade.",
+          "text": "CRM automatizado para acompanhar clientes e o próximo passo comercial. Podemos construir: Organização de contatos, clientes e oportunidades; Atualização do histórico e das etapas do relacionamento; Continuidade de tarefas e acompanhamentos comerciais; Atendimento integrado ao histórico do cliente."
+        },
+        {
+          "title": "Rotinas e aplicativos — O trabalho segue sem redigitar.",
+          "text": "Aplicativos de gestão e automações para tarefas de uso cotidiano. Podemos construir: Aplicativos sob medida para acompanhar a operação; Automação de tarefas repetitivas e passagem de informações; Integração entre sistemas e rotinas da equipe."
+        }
+      ],
+      "editorial": "As áreas apresentam possibilidades de desenvolvimento sob medida com base no escopo declarado pelo usuário. Não são descritas como um catálogo de módulos prontos nem como funcionalidades comprovadas nas duas telas públicas. Apoio financeiro e fiscal não foi convertido em promessa de recuperação de valores, economia tributária ou resultado garantido. O detalhamento do projeto deve partir da operação do cliente. Na prévia, seis áreas ficam visíveis e os exemplos se abrem por escolha do visitante. O card final destaca a implementação de IA na operação: funcionários de IA, tecnologia criada sob medida e ferramentas conectadas à equipe. O visual coloca a IA no centro de equipe, processos, dados e ferramentas, substituindo o destaque de ERP."
+    },
+    {
+      "id": "metodo",
+      "name": "Método de trabalho",
+      "status": "Método apoiado no site atual",
+      "title": "Da ideia à operação.",
+      "paragraphs": [],
+      "steps": [
+        {
+          "title": "Diagnóstico",
+          "text": "Mapeamos rotinas, regras e prioridades para definir o que precisa mudar.",
+          "modules": [
+            "Rotinas",
+            "Pessoas",
+            "Dados",
+            "Regras"
+          ]
+        },
+        {
+          "title": "Construção",
+          "text": "Criamos funcionários de IA e plataformas sob medida para a sua operação.",
+          "modules": [
+            "IA",
+            "Plataformas",
+            "Interfaces",
+            "Regras"
+          ]
+        },
+        {
+          "title": "Validação",
+          "text": "Integramos as ferramentas e testamos o funcionamento com a equipe.",
+          "modules": [
+            "Conexões",
+            "Testes",
+            "Ajustes",
+            "Equipe"
+          ]
+        },
+        {
+          "title": "Evolução",
+          "text": "Acompanhamos o uso e os resultados para ajustar e evoluir a solução.",
+          "modules": [
+            "Uso",
+            "Resultados",
+            "Ajustes",
+            "Evolução"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Implantação descrita na home",
+          "url": "https://kobalt.com.br/#como-funciona"
+        }
+      ],
+      "editorial": "Um único título apresenta a seção. Quatro etapas em acordeão trazem apenas nome e explicação curta, com uma aberta por vez. A troca automática ocorre a cada 7 segundos de reprodução visível, sincronizada com o 3D. Cliques permitem escolher uma etapa. O botão de pausar/reproduzir foi removido a pedido do usuário; foco de teclado e interação de leitura suspendem temporariamente a contagem. Não há legendas, contadores ou instruções abaixo do modelo 3D. O título tem maior respiro antes dos acordeões."
+    },
+    {
+      "id": "perguntas",
+      "name": "Perguntas frequentes",
+      "status": "Proposta de respostas",
+      "title": "Entenda como a Kobalt entra na sua operação.",
+      "faq": [
+        {
+          "question": "O que é um funcionário de IA?",
+          "answer": "É uma IA preparada para executar um conjunto definido de tarefas dentro da empresa. Ela trabalha com as informações e os acessos necessários para sua função, seguindo as regras combinadas para o projeto."
+        },
+        {
+          "question": "O que significa tecnologia sob medida?",
+          "answer": "É tecnologia projetada e desenvolvida para os processos da sua empresa. Criamos plataformas, aplicativos e software de gestão do zero, com as funções, regras e integrações de que a sua operação precisa."
+        },
+        {
+          "question": "Preciso trocar os sistemas que já uso?",
+          "answer": "Avaliamos primeiro o que você já utiliza. O projeto define o que pode ser conectado, o que precisa de ajustes e onde faz sentido construir algo novo."
+        },
+        {
+          "question": "Quem mantém o controle das decisões?",
+          "answer": "A sua empresa. Definimos quais tarefas a IA pode executar e em quais situações entram aprovação ou decisão da sua equipe."
+        },
+        {
+          "question": "Como começamos?",
+          "answer": "Por um diagnóstico gratuito e sem compromisso. Você conta onde o trabalho mais toma tempo, e a Kobalt avalia uma primeira frente de atuação e as conexões necessárias com o restante da operação."
+        }
+      ],
+      "editorial": "Tecnologia sob medida é explicada com entregas concretas: plataformas, aplicativos e software de gestão. O preço de entrada do site atual não foi generalizado para esses projetos. A redação não acrescenta compromissos de propriedade intelectual, preços ou condições contratuais. A seção inclui o card de contato abaixo do título e da lista de perguntas, ocupando a largura combinada das duas colunas.",
+      "sources": [
+        {
+          "label": "Perguntas frequentes do site atual",
+          "url": "https://kobalt.com.br/#perguntas"
+        }
+      ]
+    },
+    {
+      "id": "contato",
+      "name": "Card de contato dentro das perguntas frequentes",
+      "status": "Proposta de copy",
+      "title": "Vamos construir o próximo passo da sua empresa.",
+      "paragraphs": [],
+      "cta": "Vamos conversar",
+      "microcopy": "Diagnóstico gratuito e sem compromisso.",
+      "sources": [
+        {
+          "label": "Entrada comercial publicada",
+          "url": "https://kobalt.com.br/#contato"
+        }
+      ],
+      "placement": "Dentro de Antes de começar, abaixo das duas colunas, com largura limitada ao conteúdo. Altura mínima de 30svh, adaptável ao texto no celular. Mantém a chamada O próximo movimento é seu e o título Vamos construir o próximo passo da sua empresa.",
+      "parent_section": "perguntas"
+    }
+  ],
+  "archived_sections": [
+    {
+      "reason": "Retirada da home por repetir a visão de áreas conectadas, regras do negócio e pessoas no controle já apresentada no ecossistema.",
+      "section": {
+        "id": "sobre",
+        "name": "Sobre a Kobalt e diferenciais",
+        "status": "Proposta de copy",
+        "title": "Sua empresa primeiro. A tecnologia a serviço dela.",
+        "paragraphs": [
+          "O que melhora uma área precisa fazer sentido para a operação inteira. Pessoas, regras e prioridades orientam as escolhas de tecnologia."
+        ],
+        "items": [
+          {
+            "title": "Áreas que se conversam",
+            "text": "Consideramos as conexões entre financeiro, RH, comercial e as demais áreas para que a informação circule com contexto."
+          },
+          {
+            "title": "Regras do seu negócio",
+            "text": "Os critérios e limites da empresa orientam o que a IA executa e como a tecnologia deve funcionar."
+          },
+          {
+            "title": "Pessoas no controle",
+            "text": "A tecnologia assume tarefas. Sua equipe acompanha o trabalho e mantém as decisões que precisam de julgamento humano."
+          }
+        ],
+        "editorial": "A localização e o acompanhamento estão publicados no site. O escopo de construção completa e a visão do negócio foram confirmados pelo usuário. Não foram adicionados currículos, certificações ou números de equipe.",
+        "sources": [
+          {
+            "label": "Apresentação institucional da Kobalt",
+            "url": "https://kobalt.com.br/#o-que-e"
+          }
+        ]
+      }
+    }
+  ]
+}

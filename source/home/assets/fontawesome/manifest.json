@@ -1,0 +1,175 @@
+{
+  "library": "Font Awesome Free",
+  "version": "6.7.2",
+  "upstream": "https://github.com/FortAwesome/Font-Awesome/tree/6.7.2",
+  "icons": [
+    {
+      "name": "file-lines",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/file-lines.svg",
+      "sha256": "15c0a0e17726508ae605db9c8e7af169899fe9080bc063f8e471bb16634eb41b"
+    },
+    {
+      "name": "microchip",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/microchip.svg",
+      "sha256": "77a55c089932e596715e0cf05cf6aeb19ed1f270f51caaa8a8786b14f2feaaeb"
+    },
+    {
+      "name": "diagram-project",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/diagram-project.svg",
+      "sha256": "66706ecf3772ae35b0f6ef2e7edcda0cd606962c680f0d51eabef683025f1eea"
+    },
+    {
+      "name": "user-tie",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/user-tie.svg",
+      "sha256": "5b300a7eeca803caf000f21d8371e87e87822c83338fe3dab4060ecf5f1d4dbb"
+    },
+    {
+      "name": "users",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/users.svg",
+      "sha256": "54748bc3c0b2da7a65e982e0ff14fed16ec959bb42aeaa137862a97d16a95a57"
+    },
+    {
+      "name": "chart-line",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/chart-line.svg",
+      "sha256": "9100c634433b9983696c6f2e270b1e4220d9d2b1c1fa15b8a9833fee2bd8c972"
+    },
+    {
+      "name": "receipt",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/receipt.svg",
+      "sha256": "21abd1cc3c0d95e67bc5aa80520fe1f9214589476b0227d9556abdc325ae34aa"
+    },
+    {
+      "name": "file-signature",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/file-signature.svg",
+      "sha256": "12ae07fb86fac63a95393e061d2b0e2f5229da443eb99b7fef2210f809e0318c"
+    },
+    {
+      "name": "people-arrows",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/people-arrows.svg",
+      "sha256": "20c8910a580e4daf82cec3d64a601efbafd09390dfd8b399335f93401f4b0c04"
+    },
+    {
+      "name": "mobile-screen-button",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/mobile-screen-button.svg",
+      "sha256": "f276933de58663b05b1d24007f51b0e068ad9ce478b2726c6c2934832fe6202c"
+    },
+    {
+      "name": "sliders",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/sliders.svg",
+      "sha256": "13e84a1fd007222ee9d817fbc1b128ca0689cada15e0c1dfc644d2ca507abfea"
+    },
+    {
+      "name": "database",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/database.svg",
+      "sha256": "24b1524527739d559a587af07aefa6f5a109563598dab198fe478f4e5c58d9e7"
+    },
+    {
+      "name": "shield-halved",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/shield-halved.svg",
+      "sha256": "047f2d9eda8a9a2758eb5465ff6da85eaf91ffa3013d419331b7ff1338ef932e"
+    },
+    {
+      "name": "laptop-code",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/laptop-code.svg",
+      "sha256": "cf43c30a6cf4c5875460b6047b072faa759773707b66a3192c92e3b3fd66e1f8"
+    },
+    {
+      "name": "window-maximize",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/window-maximize.svg",
+      "sha256": "7a83e7e3a3baf15b7b7be5d9c9c2d76649b09ab6f71780b9b2167e450786ac1d"
+    },
+    {
+      "name": "link",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/link.svg",
+      "sha256": "457e42a7322ec454c3ae81e07d998e7521726a805b61515c6b29443f0f0bbc21"
+    },
+    {
+      "name": "circle-check",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/circle-check.svg",
+      "sha256": "c2c10f625e45e8a918a6d74a063670394ad0a5078b6dd88d92f9a5ac7cb6d612"
+    },
+    {
+      "name": "chart-column",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/chart-column.svg",
+      "sha256": "9ff310f1a3c88c54ec585dedad6216b93942456d6b046b4cbb26c16ba0d98e61"
+    },
+    {
+      "name": "arrows-rotate",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/arrows-rotate.svg",
+      "sha256": "0d0ead6a88be1d99e76d16886f91a2582984012a9b929764169f8d4080baf084"
+    },
+    {
+      "name": "plus",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/plus.svg",
+      "sha256": "8c1c05a38a072f42156542c6f3c6f91f0188e7bf27990f81ff42f42e0719c7e5"
+    },
+    {
+      "name": "minus",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/minus.svg",
+      "sha256": "acceb4dd14955a27ead112580f14b3904b6a8307b29265c4412636b52e762084"
+    },
+    {
+      "name": "arrow-right",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/arrow-right.svg",
+      "sha256": "8184baa12892006d1b801a4dc1c89b3df14f35a2e70b7670376a4e967225b26d"
+    },
+    {
+      "name": "arrow-down",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/arrow-down.svg",
+      "sha256": "fb89af96142a126828555419bc32b92ebf9a93f79bab570730152ab0eb114643"
+    },
+    {
+      "name": "arrow-up",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/arrow-up.svg",
+      "sha256": "7520187e5d6be7145b9a45b776b4beb4a061c96dbac77397dbc858182f1a76be"
+    },
+    {
+      "name": "bars",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/bars.svg",
+      "sha256": "2befb3dfad1c92d1099119de4dcc8145d88279a2825108d3df23910952437403"
+    },
+    {
+      "name": "xmark",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/xmark.svg",
+      "sha256": "591fea2ae19d968cac870da11a403068f083a84bb909ee248e11353ed319ec8d"
+    },
+    {
+      "name": "up-right-from-square",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/up-right-from-square.svg",
+      "sha256": "9411df123fc1f257d1d83706c2eeaee284e50cb9d5058dc0b53a7d7d54c36c45"
+    },
+    {
+      "name": "magnifying-glass-plus",
+      "style": "solid",
+      "url": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.7.2/svgs/solid/magnifying-glass-plus.svg",
+      "sha256": "d59ab2be19e6fc75dcb8bf2b44e72ece498350a7115e668b5b835e95131bf5b7"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "version": 20,
+  "geometry": "Closed geode shell, 1840 external crystals, 300 tunnel crystals, 32 morphing metal modules; no image texture on model.",
+  "checks": [
+    "JavaScript syntax checked with node --check.",
+    "Browser renders all four phases with no warning or error in captured console.",
+    "Camera position changes from positive Z outside to negative Z inside the mineral.",
+    "Desktop captures cover hero, entry, tunnel, connected metal structure and white statement.",
+    "320 × 800 and 390 × 843 CSS viewports: no global horizontal overflow; hero heading and support fit.",
+    "Native keyboard scrolling and return to beginning confirmed.",
+    "Original logo, hero text positions, no CTA/menu/video, downstream sections preserved.",
+    "Three.js and official addons vendored locally, MIT license included."
+  ],
+  "limits": [
+    "Tested in the integrated browser, not physical mobile devices or other browser engines.",
+    "Reduced-motion and WebGL failure branches inspected in code; not forced in browser QA.",
+    "Model is a procedural interpretation of the mineral reference, not a photogrammetric reconstruction."
+  ],
+  "source_files": [
+    "sites/kobalt-home-preview/hero-mineral-3d.js",
+    "sites/kobalt-home-preview/hero-mineral-3d.css",
+    "sites/kobalt-home-preview/template.html",
+    "sites/kobalt-home-preview/build.py"
+  ]
+}

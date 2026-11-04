@@ -1,0 +1,34 @@
+/* Light surfaces lead the page; dark scenes punctuate the narrative. */
+:root{--bg:#fbfcfe;--line:rgba(28,54,89,.15)}
+body{background:#fbfcfe;color:#17263e}
+.site-header{background:#ffffffed;border-bottom-color:#dbe3ef;color:#17263e}
+.site-header .wordmark,.site-footer .wordmark{color:#14233a}
+.site-header .wordmark span,.site-footer .wordmark span{color:#315fe5}
+.wordmark{display:inline-flex;align-items:center;flex-shrink:0}
+.wordmark img{display:block;width:166px;max-width:100%;height:auto;object-fit:contain}
+@media(max-width:580px){.site-header .wordmark img{width:clamp(96px,30vw,124px)}}
+.desktop-nav a{color:#52657f}.desktop-nav a:hover{color:#244fc6}
+.header-cta{color:#244674;border-color:#bccbdf;background:#fff}.header-cta span{color:#315fe5}.header-cta:hover{background:#edf3ff;border-color:#8fa8de;color:#244fc6}
+.menu-toggle span{background:#233a5c}.mobile-nav{background:#fff;color:#17263e;border-color:#dce5f0}.mobile-nav a{border-color:#dce5f0}
+.hero{background:#fbfcfe;color:#15253e}.hero .eyebrow{color:#5d7596}.hero h1 em{color:#315fe5}.hero-description{color:#5d6f87}
+.hero-glow{background:radial-gradient(ellipse,#adc5ff88,transparent 64%)}
+.hero-horizon{border-color:#8aaceb70;box-shadow:0 -2px 18px #5f8ee545,0 -20px 100px #b5ccff55,inset 0 30px 70px #dce8ff70}
+.hero-continue{color:#5272a0}.hero-continue span{background:linear-gradient(transparent,#7598ce)}
+.clients{background:#fff;color:#20354f}.clients h2{color:#64758e}.client-names span{color:#263b57;opacity:1}
+.client-logos{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));max-width:1180px;gap:40px;align-items:center}
+.client-logo{display:flex;justify-content:center;align-items:center;min-width:0;height:80px}
+.client-logo img{display:block;width:100%;height:auto;max-width:150px;max-height:72px;object-fit:contain;filter:grayscale(1) brightness(0);opacity:.78}
+.client-logo-zion img{max-width:140px}.client-logo-mk img{max-width:170px}.client-logo-neptunia img{max-width:142px}.client-logo-grancereal img{max-width:158px}.client-logo-maat img{max-width:150px}.client-logo-art img{max-width:72px}
+@media(max-width:1000px){.client-logos{grid-template-columns:repeat(3,minmax(0,1fr));max-width:750px;gap:30px 50px}}
+@media(max-width:580px){.client-logos{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 28px;max-width:380px}.client-logo{height:76px}.client-logo img{max-width:132px}.client-logo-mk img{max-width:146px}.client-logo-maat img{max-width:140px}.client-logo-art img{max-width:64px}}
+.media-solutions{background:#f2f5fa;color:#172a45}.media-solutions .solution-introduction>.eyebrow{color:#5f789a}.media-solutions .solution-introduction>h2>span{color:#647d9f}
+.build-card{color:#f4f6fb;border-color:#8ca0bc55;box-shadow:0 24px 48px #253c5e14}
+.ecosystem-explained{color:#f4f6fb}
+.applications.product-proof{background:#fff}.proof-tabs button{color:#5f7490}.proof-tabs button[aria-selected=true]{color:#173766}.window-bar{color:#5d7290}.window-tag{color:#617997}.product-window figcaption{color:#5e708b}.product-window figcaption span:last-child{color:#406496}
+.method{background:#080b10;color:#f4f6fb;max-width:none}.method .eyebrow{color:#a6b9d4}.method .method-controls,.method .method-step{border-color:#8fa7ca2b}
+.about{background:#f2f5fa}.about .about-description{color:#546880}.about-principles li p{color:#5c708a}.about-principles li{border-color:#b7c7dc80}
+.faq{background:#fff;color:#172942}.faq .eyebrow{color:#5d789b}.faq h2 span{color:#647d9f}.faq-item,.faq-item:first-child{border-color:#d4dfed}.faq-item summary>span{color:#4e6fa5}.faq-item[open] summary>span{color:#2859cb}.faq-item p{color:#5c708b}
+.contact{color:#fff}
+.site-footer{background:#fff;color:#172942}.footer-main>p{color:#5c708b}.footer-main>a:last-child{color:#36587f}.footer-bottom{border-color:#dbe4ef;color:#5e718b}.preview-label{color:#62768e}
+.site-header a:focus-visible,.mobile-nav a:focus-visible,.hero a:focus-visible,.clients a:focus-visible,.proof-tabs button:focus-visible,.about summary:focus-visible,.faq summary:focus-visible,.site-footer a:focus-visible{outline-color:#315fe5}
+@media(max-width:580px){.footer-bottom{font-size:8px}.preview-label{font-size:7px}}

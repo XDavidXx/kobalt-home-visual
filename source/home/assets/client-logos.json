@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Zion Private Finance",
+    "file": "client-logos/zion.png",
+    "slug": "zion",
+    "width": 276,
+    "height": 59,
+    "source": "https://kobalt.com.br/_next/image?url=%2Fmarca%2Fzion%2Fzion_wordmark.png&w=640&q=75&dpl=6e396e01c32fb4de781fadb729681d9c",
+    "observed_date": "2026-10-29"
+  },
+  {
+    "name": "MK Autocenter",
+    "file": "client-logos/mk-autocenter.png",
+    "slug": "mk",
+    "width": 640,
+    "height": 105,
+    "source": "https://kobalt.com.br/_next/image?url=%2Fmarca%2Fapresentacao%2Fmk-autocenter.png&w=640&q=75&dpl=6e396e01c32fb4de781fadb729681d9c",
+    "observed_date": "2026-10-29"
+  },
+  {
+    "name": "Neptunia",
+    "file": "client-logos/neptunia.svg",
+    "slug": "neptunia",
+    "width": 1100,
+    "height": 288,
+    "source": "https://kobalt.com.br/marca/neptunia/neptunia_logo_tema.svg?dpl=6e396e01c32fb4de781fadb729681d9c",
+    "observed_date": "2026-10-29"
+  },
+  {
+    "name": "Grancereal",
+    "file": "client-logos/grancereal.svg",
+    "slug": "grancereal",
+    "width": 357,
+    "height": 87,
+    "source": "https://kobalt.com.br/marca/grancereal/grancereal_logo_tema.svg?dpl=6e396e01c32fb4de781fadb729681d9c",
+    "observed_date": "2026-10-29"
+  },
+  {
+    "name": "MAAT",
+    "file": "client-logos/maat.svg",
+    "slug": "maat",
+    "width": 2120,
+    "height": 940,
+    "source": "https://kobalt.com.br/marca/apresentacao/maat.svg?dpl=6e396e01c32fb4de781fadb729681d9c",
+    "observed_date": "2026-10-29"
+  },
+  {
+    "name": "Art Cadeiras",
+    "file": "client-logos/art-cadeiras.png",
+    "slug": "art",
+    "width": 349,
+    "height": 360,
+    "source": "https://kobalt.com.br/_next/image?url=%2Fmarca%2Fapresentacao%2Fart-cadeiras.png&w=640&q=75&dpl=6e396e01c32fb4de781fadb729681d9c",
+    "observed_date": "2026-10-29"
+  }
+]

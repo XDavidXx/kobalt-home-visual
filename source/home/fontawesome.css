@@ -1,0 +1,22 @@
+/* Official Font Awesome Free SVGs are embedded, with no icon-font dependency. */
+.fa-icon{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.125em;fill:currentColor;stroke:none;pointer-events:none}
+.workflow-icon>svg.fa-icon,.capability-icon>svg.fa-icon,.lab-module-surface>svg.fa-icon,.lab-core-top>svg.fa-icon{fill:currentColor;stroke:none}
+.workflow-icon>svg.fa-icon{display:block;width:29px;height:29px;color:inherit}
+.capability-icon>svg.fa-icon{width:22px;height:22px}
+.header-cta-arrow,.button-arrow,.build-open b,.capability-more>span,.faq-item summary>span{display:inline-grid;place-items:center;line-height:1}
+.header-cta-arrow .fa-icon,.button-arrow .fa-icon{width:17px;height:17px;transform:rotate(-45deg)}
+.build-open b,.capability-more>span,.faq-item summary>span{width:20px;height:20px;flex:none}
+.build-open .fa-icon,.capability-more .fa-icon,.faq-item summary .fa-icon{width:14px;height:14px}
+.hero-continue>.fa-icon{display:block;width:12px;height:12px;margin:auto}
+.inline-arrow{width:.9em;height:.9em;margin-left:.25em;transform:rotate(-45deg)}
+.case-results-foot .fa-icon,.ai-scope-cta .fa-icon{width:17px;height:17px;transform:rotate(-45deg)}
+.site-header .menu-toggle{color:#405571}
+.menu-toggle>.fa-icon{width:23px;height:23px;margin:auto}
+.menu-toggle[aria-expanded="false"]>.menu-close-icon,.menu-toggle[aria-expanded="true"]>.menu-open-icon{display:none}
+.method-accordion-mark:before,.method-accordion-mark:after{display:none}
+.method-accordion-mark>.fa-icon{display:block;width:13px;height:13px}
+.method-accordion-mark>.fa-minus,.method-accordion-item.is-active .method-accordion-mark>.fa-plus{display:none}
+.method-accordion-item.is-active .method-accordion-mark>.fa-minus{display:block}
+.lab-module-surface>svg.fa-icon{color:rgb(var(--tile-rgb))}
+.lab-core-top>svg.fa-icon{color:#d1e6ff}
+@media(max-width:580px){.workflow-node .workflow-icon>svg.fa-icon{width:24px;height:24px}}

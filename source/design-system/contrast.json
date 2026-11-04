@@ -1,0 +1,146 @@
+[
+  {
+    "theme": "light",
+    "label": "Texto principal",
+    "foreground": "#101822",
+    "background": "#fbfcfe",
+    "ratio": 17.399,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Texto secundário",
+    "foreground": "#46556b",
+    "background": "#ffffff",
+    "ratio": 7.575,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Texto de apoio",
+    "foreground": "#5a6a80",
+    "background": "#ffffff",
+    "ratio": 5.515,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Botão primário",
+    "foreground": "#ffffff",
+    "background": "#315fe5",
+    "ratio": 5.386,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Link",
+    "foreground": "#234cdd",
+    "background": "#fbfcfe",
+    "ratio": 6.496,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Sucesso",
+    "foreground": "#136046",
+    "background": "#e8f7ef",
+    "ratio": 6.805,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Atenção",
+    "foreground": "#815200",
+    "background": "#fff5d6",
+    "ratio": 6.141,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "light",
+    "label": "Erro",
+    "foreground": "#b42338",
+    "background": "#fff0f1",
+    "ratio": 5.863,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Texto principal",
+    "foreground": "#f4f6fb",
+    "background": "#080b10",
+    "ratio": 18.225,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Texto secundário",
+    "foreground": "#b6c4d8",
+    "background": "#0e1522",
+    "ratio": 10.336,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Texto de apoio",
+    "foreground": "#92a5c0",
+    "background": "#0e1522",
+    "ratio": 7.28,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Botão primário",
+    "foreground": "#ffffff",
+    "background": "#315fe5",
+    "ratio": 5.386,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Link",
+    "foreground": "#a8c0ff",
+    "background": "#080b10",
+    "ratio": 10.931,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Sucesso",
+    "foreground": "#89dfba",
+    "background": "#102e27",
+    "ratio": 9.242,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Atenção",
+    "foreground": "#f1cb80",
+    "background": "#332b18",
+    "ratio": 9.066,
+    "minimum": 4.5,
+    "pass": true
+  },
+  {
+    "theme": "dark",
+    "label": "Erro",
+    "foreground": "#ffa7b4",
+    "background": "#391b28",
+    "ratio": 8.402,
+    "minimum": 4.5,
+    "pass": true
+  }
+]

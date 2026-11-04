@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-29",
+  "source": {
+    "type": "Material fornecido pelo usuário",
+    "attachment": "codex-clipboard-614d6f5e-af61-4e12-8042-8530c2dc36ee.png",
+    "clarification": "Usuário confirmou redução de tempo nos restaurantes e na oficina; a oficina teve aumento de receita com o mesmo custo. Os 30% da Deguste correspondem ao tempo para gerar a folha de pagamento."
+  },
+  "title": "O resultado aparece na operação.",
+  "note": "Resultados informados pela equipe Kobalt em operações específicas.",
+  "cases": [
+    {
+      "id": "grancereal",
+      "label": "Grancereal",
+      "category": "RH",
+      "client": "Grancereal",
+      "logo": "client-logos/grancereal.svg",
+      "headline": "Fechar o mês com mais agilidade.",
+      "value": "70",
+      "suffix": "%",
+      "metric": "menos tempo no fechamento mensal do RH.",
+      "report_text": "70% de redução no tempo de fechamento mensal do RH da Grancereal.",
+      "status": "Métrica definida no material fornecido"
+    },
+    {
+      "id": "restaurantes",
+      "label": "Restaurantes",
+      "category": "Funções administrativas",
+      "headline": "Mais tempo para cuidar do negócio.",
+      "value": "60",
+      "suffix": "%",
+      "metric": "menos tempo nas funções administrativas de restaurantes.",
+      "report_text": "60% de redução no tempo dedicado às funções administrativas de restaurantes.",
+      "status": "Redução de tempo confirmada pelo usuário"
+    },
+    {
+      "id": "oficina",
+      "label": "Oficina",
+      "category": "Eficiência e receita",
+      "headline": "Mais eficiência. Mais receita.",
+      "value": "40",
+      "suffix": "%",
+      "metric": "menos tempo em rotinas da oficina.",
+      "secondary": {
+        "value": "+10",
+        "suffix": "%",
+        "metric": "de receita, mantendo o mesmo custo da operação."
+      },
+      "report_text": "40% de redução de tempo em rotinas da oficina e 10% de aumento de receita, mantendo o mesmo custo.",
+      "status": "Redução de tempo, aumento de receita e custo mantido confirmados pelo usuário"
+    },
+    {
+      "id": "deguste",
+      "label": "Deguste",
+      "category": "Geração da folha",
+      "client": "Deguste",
+      "headline": "A folha pronta em menos tempo.",
+      "value": "30",
+      "suffix": "%",
+      "metric": "menos tempo para gerar a folha de pagamento.",
+      "report_text": "30% de redução no tempo para gerar a folha de pagamento da Deguste.",
+      "status": "Usuário esclareceu que a redução é de tempo de geração da folha; não de custo ou de quantidade de funcionários."
+    },
+    {
+      "id": "sistemas",
+      "label": "Sistemas",
+      "category": "Custos com tecnologia",
+      "headline": "Tecnologia com menos custo.",
+      "value": "25",
+      "suffix": "%",
+      "metric": "de redução no custo com sistemas.",
+      "report_text": "25% de redução no custo com sistemas. O cliente não foi associado a esse dado na prévia.",
+      "status": "Métrica definida; cliente não identificado"
+    }
+  ],
+  "pending": [],
+  "editorial": "Os resultados vêm do material enviado pelo usuário, sem auditoria independente. Não foram fornecidos período, valores de base, horas absolutas ou descrição técnica de cada implantação. Os 60%, 40%, 30% e 70% se referem a tempo. A oficina também registrou 10% de aumento de receita com o mesmo custo. Os 25% se referem a custo com sistemas, sem associação confirmada a um cliente. Não foram associados resultados anônimos aos logos de clientes."
+}

@@ -1,0 +1,9 @@
+Segue a entrega visual da nova home Kobalt, versão 20.
+
+Referência: https://kobalt-home-2026.codex832867.chatgpt.site/
+
+Leia README.md, INTEGRACAO.md e manifest.json. O pacote contém a página pronta para comparação e as fontes editáveis, incluindo a hero com geometria 3D real, fontes, ícones, imagens e design system.
+
+Integre na página pública do cockpit conforme as instruções e a base atual da fábrica. Preserve o roteamento por host e reaproveite o formulário, origem/UTM e eventos existentes. Adapte a cena 3D para o ciclo de vida React e mantenha o restante do aplicativo funcionando.
+
+Apresente uma prévia para revisão visual e funcional antes de passar pelo fluxo normal de liberação da plataforma.

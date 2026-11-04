@@ -1,0 +1,20 @@
+[
+  "styles.css",
+  "breathing.css",
+  "media.css",
+  "palette.css",
+  "workflow.css",
+  "results.css",
+  "capabilities.css",
+  "method-lab.css",
+  "readability.css",
+  "method-accordion.css",
+  "closing-card.css",
+  "fontawesome.css",
+  "hero-forge.css",
+  "../design-system/home-theme.css",
+  "../design-system/components.css",
+  "../design-system/logo-carousel.css",
+  "hero-transition.css",
+  "hero-mineral-3d.css"
+]

@@ -1,0 +1,911 @@
+{
+  "package": "kobalt-home-visual-v20",
+  "date": "2026-11-04",
+  "reference_version": "appgprj_6ae3bbaaf52881918473fca686bf5bba~appgver_c8ffc8fef1bc8191aec4d9de2e64b04b",
+  "reference_commit": "21197e1a1b346796c186b29d633b4b67c1206ec5",
+  "original_html_sha256": "1b69a15c37956d2677dfb72c3f0a3c4da24a13610eae02ce9f7bc3e5c341c204",
+  "externalized_images": [
+    {
+      "file": "reference/assets/kobalt-original.svg",
+      "sha256": "a8290fbb95944531ae55f314aa76894f6539bd88c030cddbdaa62bb726bf9957"
+    },
+    {
+      "file": "reference/assets/ai-colleague.png",
+      "sha256": "ec4e2d4af2b3e7196df7c8c7547a8d8d5adfffe77931b6366e07afbc2df60e88"
+    },
+    {
+      "file": "reference/assets/systems.png",
+      "sha256": "bac142a90d06b3c1d79c5c25da8c922ccb4eb3fc7a3a4f9d9e4ff4479b40cfed"
+    },
+    {
+      "file": "reference/assets/connected-workspace.png",
+      "sha256": "5be3ec45a20f4f95f96c2875b35da63fea0475ffb16ad5beab42c2154df46c2c"
+    },
+    {
+      "file": "reference/assets/client-logos/grancereal.svg",
+      "sha256": "15969318ee38e6ad3b58046e1f760a38cdfd57405b9883f6758d4d4a3811fce2"
+    }
+  ],
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 93,
+      "sha256": "27ac58ce78be237d972ef8e5ff15342d9a702dae85a5f256033c0f8452c14109"
+    },
+    {
+      "file": "INTEGRACAO.md",
+      "bytes": 4539,
+      "sha256": "9c5e6a137fc0130e75144b105ef9fe8ed1333ac2a33c18e6635345c5fef3d345"
+    },
+    {
+      "file": "LICENSES/archivo-OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "file": "LICENSES/fontawesome-LICENSE.txt",
+      "bytes": 7427,
+      "sha256": "9b914eae88817d63b576eab5aafde7068c7a1abae125d7cdfb034f1da43a9afc"
+    },
+    {
+      "file": "LICENSES/ibm-plex-mono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "LICENSES/react-bits-LICENSE.md",
+      "bytes": 2060,
+      "sha256": "4bdd1fa59a6b7d5954bc3b213dbc34e455c635a94bbcecf9293553797d0fad02"
+    },
+    {
+      "file": "LICENSES/three-MIT.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "file": "MENSAGEM-PARA-FABRICA.txt",
+      "bytes": 726,
+      "sha256": "38ad6ff4759f2ecb8a42ef2af65a23a1c993f26ca09b016a2077f6aa02bd89cb"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2520,
+      "sha256": "02c330c92c7d8269af96e376a18e665b65b01455777216a846fa86a2a5b1c88c"
+    },
+    {
+      "file": "delivery.json",
+      "bytes": 560,
+      "sha256": "6f393d70cfc322dd8dca9b784cf8e7f2b089abb5851fc52199c4f868c1a4f798"
+    },
+    {
+      "file": "docs/hero-publicada.png",
+      "bytes": 82668,
+      "sha256": "d3226a613d79adf42c0b27cf0197d04680dda000e453d3238567c16fde74d65b"
+    },
+    {
+      "file": "docs/verificacao-origem.json",
+      "bytes": 1401,
+      "sha256": "862a42c0c1d12798c9d88273999906b4fe8c9d2e544af4834c5752f073c3e84a"
+    },
+    {
+      "file": "reference/assets/ai-colleague.png",
+      "bytes": 2100995,
+      "sha256": "ec4e2d4af2b3e7196df7c8c7547a8d8d5adfffe77931b6366e07afbc2df60e88"
+    },
+    {
+      "file": "reference/assets/client-logos/grancereal.svg",
+      "bytes": 19661,
+      "sha256": "15969318ee38e6ad3b58046e1f760a38cdfd57405b9883f6758d4d4a3811fce2"
+    },
+    {
+      "file": "reference/assets/connected-workspace.png",
+      "bytes": 2511332,
+      "sha256": "5be3ec45a20f4f95f96c2875b35da63fea0475ffb16ad5beab42c2154df46c2c"
+    },
+    {
+      "file": "reference/assets/hero/mineral-azul-no-espaco.png",
+      "bytes": 2308007,
+      "sha256": "92bacd05d17f94bf55929014ec9383a7a5ad233e0d90c2eb5f6632e582300479"
+    },
+    {
+      "file": "reference/assets/hero/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/environments/RoomEnvironment.js",
+      "bytes": 4899,
+      "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/EffectComposer.js",
+      "bytes": 8477,
+      "sha256": "4b8c855f28eed2570bed898adc0ab89c585a8a281ecb6d905c09d00697f9f50a"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/MaskPass.js",
+      "bytes": 4694,
+      "sha256": "7cd08eee9d5d6f5578beaddbdcbe9c384f6873810af27f22ab7db3ceeb127aa3"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/OutputPass.js",
+      "bytes": 4029,
+      "sha256": "f5b81c96e76b6b28b4b3ba8c41c4aeb982b1e03f3d82883242d951b2ab082fa2"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/Pass.js",
+      "bytes": 4218,
+      "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/RenderPass.js",
+      "bytes": 4112,
+      "sha256": "fd91229aacc5830e3984b0f2bdefcf566163ea028f4c1f1ab233fa6665a133ac"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/ShaderPass.js",
+      "bytes": 3228,
+      "sha256": "e2500a5913b26bbf5148ceaae644c6edcff06a18b01494ee37bf856353d2ab9d"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/postprocessing/UnrealBloomPass.js",
+      "bytes": 14388,
+      "sha256": "d92742959879b461f25348b2abddc7ca0d48527e7718340bcfa29fa771e2799a"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/shaders/CopyShader.js",
+      "bytes": 729,
+      "sha256": "a33057d5ac91c43304c186ac0e8816e62bb2ed471d3a00ff3018dfd5c0389718"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/shaders/LuminosityHighPassShader.js",
+      "bytes": 1291,
+      "sha256": "5044f780b6e6cf863947f64c36fe1587132f7fbe395ada863cd1e5f0388dcf1e"
+    },
+    {
+      "file": "reference/assets/hero/vendor/examples/jsm/shaders/OutputShader.js",
+      "bytes": 1876,
+      "sha256": "353479f77a8d7e2629d49ccac9fc2f5dbfdda5442e0adf867b00377a2fcb0cb2"
+    },
+    {
+      "file": "reference/assets/hero/vendor/three.core.min.js",
+      "bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "file": "reference/assets/hero/vendor/three.module.min.js",
+      "bytes": 338908,
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6"
+    },
+    {
+      "file": "reference/assets/hero/vendor/version.json",
+      "bytes": 125,
+      "sha256": "fd6066101b32e5dc9b9b1fb75a9792b25b460a1108c31228e6b5048a6b144686"
+    },
+    {
+      "file": "reference/assets/kobalt-original.svg",
+      "bytes": 2246,
+      "sha256": "a8290fbb95944531ae55f314aa76894f6539bd88c030cddbdaa62bb726bf9957"
+    },
+    {
+      "file": "reference/assets/systems.png",
+      "bytes": 1754804,
+      "sha256": "bac142a90d06b3c1d79c5c25da8c922ccb4eb3fc7a3a4f9d9e4ff4479b40cfed"
+    },
+    {
+      "file": "reference/index.html",
+      "bytes": 56456,
+      "sha256": "230225fd7f03fdd21733a1a3b3e53d44721c691712075976adf78a03a0d50c20"
+    },
+    {
+      "file": "reference/site.css",
+      "bytes": 231617,
+      "sha256": "8aa67aa70c7b26972e5c76e35febccce3e11936513d4835e045aeab12ac03590"
+    },
+    {
+      "file": "reference/site.js",
+      "bytes": 83644,
+      "sha256": "256e8ca7280a8672759a3ab259b8042450342c09b28e9603709b7bc77360badd"
+    },
+    {
+      "file": "source/content/aplicacoes-empresa.json",
+      "bytes": 4121,
+      "sha256": "2da33dbd760ed967e1140bd4a25abbb9b391ce8d042378532fb02dbc47ff148b"
+    },
+    {
+      "file": "source/content/copy-home.json",
+      "bytes": 16567,
+      "sha256": "24a22485de4a920ae02210f1785ff57abd47c589be60115b9f7f16266d1c8a85"
+    },
+    {
+      "file": "source/content/resultados-clientes.json",
+      "bytes": 3546,
+      "sha256": "81480f8faaecbf1dcdbe6493b85894f8a22eeb48278433ffc62a5514630eacc6"
+    },
+    {
+      "file": "source/design-system/CHANGELOG.md",
+      "bytes": 1117,
+      "sha256": "00a152e2311384c1e05333171a785c2a59bcec3d4e239131d360d51ce3bf0715"
+    },
+    {
+      "file": "source/design-system/README.md",
+      "bytes": 9237,
+      "sha256": "d05cc6adb3092fc5e458a2890b99f64f40eee9c3ddb93b33862953cc2fe14309"
+    },
+    {
+      "file": "source/design-system/assets/brand/kobalt-blue.svg",
+      "bytes": 2246,
+      "sha256": "6695466938b016ef327aefa8c5a1103411861f613743c8da8af6b433709ef90b"
+    },
+    {
+      "file": "source/design-system/assets/brand/kobalt-original.svg",
+      "bytes": 2246,
+      "sha256": "a8290fbb95944531ae55f314aa76894f6539bd88c030cddbdaa62bb726bf9957"
+    },
+    {
+      "file": "source/design-system/assets/brand/kobalt-white.svg",
+      "bytes": 2246,
+      "sha256": "0a78300da40ae60dcc7e49a4423c69f139318f65830acc7c148133c7bcfe42f8"
+    },
+    {
+      "file": "source/design-system/assets/fonts/archivo-OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "file": "source/design-system/assets/fonts/archivo-variable-latin.woff2",
+      "bytes": 34940,
+      "sha256": "7150c0ec5ad356453013d11affec1fbab95de0dd2dcecb043b4f1cb7f87c4ba4"
+    },
+    {
+      "file": "source/design-system/assets/fonts/ibm-plex-mono-400-latin.woff2",
+      "bytes": 10052,
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac"
+    },
+    {
+      "file": "source/design-system/assets/fonts/ibm-plex-mono-500-latin.woff2",
+      "bytes": 10060,
+      "sha256": "a76f53ca6612e7b3828eec2311098675b7f9849ae4169a8bcef6302aec02a6c0"
+    },
+    {
+      "file": "source/design-system/assets/fonts/ibm-plex-mono-600-latin.woff2",
+      "bytes": 10120,
+      "sha256": "ad4580d8cb4b5f627c2d18457656732f7f7b070f7837fbc380e08054157e6f6c"
+    },
+    {
+      "file": "source/design-system/assets/fonts/ibm-plex-mono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "source/design-system/assets/fonts/manifest.json",
+      "bytes": 844,
+      "sha256": "d9fad242b2c7944ecfc53448708a06b8fd140e3d98dcbabc6deddd7d135371e3"
+    },
+    {
+      "file": "source/design-system/assets/icons/LICENSE.txt",
+      "bytes": 7427,
+      "sha256": "9b914eae88817d63b576eab5aafde7068c7a1abae125d7cdfb034f1da43a9afc"
+    },
+    {
+      "file": "source/design-system/assets/icons/arrow-down.svg",
+      "bytes": 510,
+      "sha256": "fb89af96142a126828555419bc32b92ebf9a93f79bab570730152ab0eb114643"
+    },
+    {
+      "file": "source/design-system/assets/icons/arrow-right.svg",
+      "bytes": 512,
+      "sha256": "8184baa12892006d1b801a4dc1c89b3df14f35a2e70b7670376a4e967225b26d"
+    },
+    {
+      "file": "source/design-system/assets/icons/arrow-up.svg",
+      "bytes": 511,
+      "sha256": "7520187e5d6be7145b9a45b776b4beb4a061c96dbac77397dbc858182f1a76be"
+    },
+    {
+      "file": "source/design-system/assets/icons/arrows-rotate.svg",
+      "bytes": 1071,
+      "sha256": "0d0ead6a88be1d99e76d16886f91a2582984012a9b929764169f8d4080baf084"
+    },
+    {
+      "file": "source/design-system/assets/icons/bars.svg",
+      "bytes": 588,
+      "sha256": "2befb3dfad1c92d1099119de4dcc8145d88279a2825108d3df23910952437403"
+    },
+    {
+      "file": "source/design-system/assets/icons/chart-line.svg",
+      "bytes": 648,
+      "sha256": "9100c634433b9983696c6f2e270b1e4220d9d2b1c1fa15b8a9833fee2bd8c972"
+    },
+    {
+      "file": "source/design-system/assets/icons/circle-check.svg",
+      "bytes": 484,
+      "sha256": "c2c10f625e45e8a918a6d74a063670394ad0a5078b6dd88d92f9a5ac7cb6d612"
+    },
+    {
+      "file": "source/design-system/assets/icons/database.svg",
+      "bytes": 723,
+      "sha256": "24b1524527739d559a587af07aefa6f5a109563598dab198fe478f4e5c58d9e7"
+    },
+    {
+      "file": "source/design-system/assets/icons/diagram-project.svg",
+      "bytes": 647,
+      "sha256": "66706ecf3772ae35b0f6ef2e7edcda0cd606962c680f0d51eabef683025f1eea"
+    },
+    {
+      "file": "source/design-system/assets/icons/file-lines.svg",
+      "bytes": 698,
+      "sha256": "15c0a0e17726508ae605db9c8e7af169899fe9080bc063f8e471bb16634eb41b"
+    },
+    {
+      "file": "source/design-system/assets/icons/file-signature.svg",
+      "bytes": 1236,
+      "sha256": "12ae07fb86fac63a95393e061d2b0e2f5229da443eb99b7fef2210f809e0318c"
+    },
+    {
+      "file": "source/design-system/assets/icons/laptop-code.svg",
+      "bytes": 798,
+      "sha256": "cf43c30a6cf4c5875460b6047b072faa759773707b66a3192c92e3b3fd66e1f8"
+    },
+    {
+      "file": "source/design-system/assets/icons/link.svg",
+      "bytes": 1069,
+      "sha256": "457e42a7322ec454c3ae81e07d998e7521726a805b61515c6b29443f0f0bbc21"
+    },
+    {
+      "file": "source/design-system/assets/icons/microchip.svg",
+      "bytes": 1129,
+      "sha256": "77a55c089932e596715e0cf05cf6aeb19ed1f270f51caaa8a8786b14f2feaaeb"
+    },
+    {
+      "file": "source/design-system/assets/icons/minus.svg",
+      "bytes": 391,
+      "sha256": "acceb4dd14955a27ead112580f14b3904b6a8307b29265c4412636b52e762084"
+    },
+    {
+      "file": "source/design-system/assets/icons/mobile-screen-button.svg",
+      "bytes": 483,
+      "sha256": "f276933de58663b05b1d24007f51b0e068ad9ce478b2726c6c2934832fe6202c"
+    },
+    {
+      "file": "source/design-system/assets/icons/plus.svg",
+      "bytes": 492,
+      "sha256": "8c1c05a38a072f42156542c6f3c6f91f0188e7bf27990f81ff42f42e0719c7e5"
+    },
+    {
+      "file": "source/design-system/assets/icons/receipt.svg",
+      "bytes": 958,
+      "sha256": "21abd1cc3c0d95e67bc5aa80520fe1f9214589476b0227d9556abdc325ae34aa"
+    },
+    {
+      "file": "source/design-system/assets/icons/shield-halved.svg",
+      "bytes": 562,
+      "sha256": "047f2d9eda8a9a2758eb5465ff6da85eaf91ffa3013d419331b7ff1338ef932e"
+    },
+    {
+      "file": "source/design-system/assets/icons/sliders.svg",
+      "bytes": 1018,
+      "sha256": "13e84a1fd007222ee9d817fbc1b128ca0689cada15e0c1dfc644d2ca507abfea"
+    },
+    {
+      "file": "source/design-system/assets/icons/up-right-from-square.svg",
+      "bytes": 759,
+      "sha256": "9411df123fc1f257d1d83706c2eeaee284e50cb9d5058dc0b53a7d7d54c36c45"
+    },
+    {
+      "file": "source/design-system/assets/icons/users.svg",
+      "bytes": 908,
+      "sha256": "54748bc3c0b2da7a65e982e0ff14fed16ec959bb42aeaa137862a97d16a95a57"
+    },
+    {
+      "file": "source/design-system/assets/icons/xmark.svg",
+      "bytes": 570,
+      "sha256": "591fea2ae19d968cac870da11a403068f083a84bb909ee248e11353ed319ec8d"
+    },
+    {
+      "file": "source/design-system/components.css",
+      "bytes": 7936,
+      "sha256": "46b70aee5d71b06eefa28d9b9d5f378599ca142574df1a9d2df78d0a5bc69b08"
+    },
+    {
+      "file": "source/design-system/contrast.json",
+      "bytes": 2777,
+      "sha256": "9f178d4ac06ccdc3f611f53b5ef1f8b7f841ab9915b395827129d84d1bd45cb1"
+    },
+    {
+      "file": "source/design-system/fonts.css",
+      "bytes": 645,
+      "sha256": "30a21ae443bb09ae3090ff6f3342ff4fff263b0df2a2e9ed023410e02462a002"
+    },
+    {
+      "file": "source/design-system/generate.py",
+      "bytes": 1408,
+      "sha256": "6deab0b0f17de605975da346c1ae99754c1b594c97f2f7053c4cb98a88e4e775"
+    },
+    {
+      "file": "source/design-system/home-theme.css",
+      "bytes": 92872,
+      "sha256": "0414c0d0de05f060af481d68b56188012a5866e350d4eed661d105e0f3e85fc3"
+    },
+    {
+      "file": "source/design-system/logo-carousel.css",
+      "bytes": 2425,
+      "sha256": "f8e330b216b6aa4d5a32e88007c2b113e1154efbeec7cf72ec1cc3c3a779e186"
+    },
+    {
+      "file": "source/design-system/logo-carousel.js",
+      "bytes": 1419,
+      "sha256": "dfa278774e39be85410ae8621101378fbf51377a6a4b94809e13e45b81a383f3"
+    },
+    {
+      "file": "source/design-system/tailwind.preset.cjs",
+      "bytes": 978,
+      "sha256": "3e4190d234363f5794eac2f27ca71b226a9db2fc033b34d1b25c364a7c921d09"
+    },
+    {
+      "file": "source/design-system/tokens.css",
+      "bytes": 4752,
+      "sha256": "0f292ea551cb51fca28fc85db8ff3df992c68473dd6fb38031c6b6536bce0b10"
+    },
+    {
+      "file": "source/design-system/tokens.json",
+      "bytes": 5000,
+      "sha256": "a59b071a58aef5c0324d745aba280ccb8abe8ae007eecc521db9137383540b1e"
+    },
+    {
+      "file": "source/design-system/tokens.ts",
+      "bytes": 5069,
+      "sha256": "86a47a173c6e46c9074fc0ef847da0ed5f2042009fba393f1596d01e6ae9882a"
+    },
+    {
+      "file": "source/home/assets/ai-colleague.png",
+      "bytes": 2100995,
+      "sha256": "ec4e2d4af2b3e7196df7c8c7547a8d8d5adfffe77931b6366e07afbc2df60e88"
+    },
+    {
+      "file": "source/home/assets/client-logos/art-cadeiras.png",
+      "bytes": 3853,
+      "sha256": "ff4d75210a56f7aa862cb04bc51315164e1561f80b32612e85ef7b24ca1abe7e"
+    },
+    {
+      "file": "source/home/assets/client-logos/grancereal.svg",
+      "bytes": 19661,
+      "sha256": "15969318ee38e6ad3b58046e1f760a38cdfd57405b9883f6758d4d4a3811fce2"
+    },
+    {
+      "file": "source/home/assets/client-logos/maat.svg",
+      "bytes": 17652,
+      "sha256": "3aa27d269a980249d338b1912583f90ee4215eb0887e31a16874ab232739cf57"
+    },
+    {
+      "file": "source/home/assets/client-logos/mk-autocenter.png",
+      "bytes": 5259,
+      "sha256": "e0dd9fe7045364ae34d0ad48e885d4e0afdb114d008d662b9637c8b1d46d11ae"
+    },
+    {
+      "file": "source/home/assets/client-logos/neptunia.svg",
+      "bytes": 10353,
+      "sha256": "b56138433bbc9f5786af35879ef0ee1281ba193547a49563901e36888bb84007"
+    },
+    {
+      "file": "source/home/assets/client-logos/zion.png",
+      "bytes": 2938,
+      "sha256": "cdec68bfd7a915127714d5e6bc3c7270340159d6cddadbfec2d540ff5c74869c"
+    },
+    {
+      "file": "source/home/assets/client-logos.json",
+      "bytes": 1790,
+      "sha256": "7c805a68067279fbbf3468b35df2b4f81c4df88c95465bfce4a5c6b0c6224f60"
+    },
+    {
+      "file": "source/home/assets/connected-workspace.png",
+      "bytes": 2511332,
+      "sha256": "5be3ec45a20f4f95f96c2875b35da63fea0475ffb16ad5beab42c2154df46c2c"
+    },
+    {
+      "file": "source/home/assets/fontawesome/LICENSE.txt",
+      "bytes": 7427,
+      "sha256": "9b914eae88817d63b576eab5aafde7068c7a1abae125d7cdfb034f1da43a9afc"
+    },
+    {
+      "file": "source/home/assets/fontawesome/arrow-down.svg",
+      "bytes": 510,
+      "sha256": "fb89af96142a126828555419bc32b92ebf9a93f79bab570730152ab0eb114643"
+    },
+    {
+      "file": "source/home/assets/fontawesome/arrow-right.svg",
+      "bytes": 512,
+      "sha256": "8184baa12892006d1b801a4dc1c89b3df14f35a2e70b7670376a4e967225b26d"
+    },
+    {
+      "file": "source/home/assets/fontawesome/arrow-up.svg",
+      "bytes": 511,
+      "sha256": "7520187e5d6be7145b9a45b776b4beb4a061c96dbac77397dbc858182f1a76be"
+    },
+    {
+      "file": "source/home/assets/fontawesome/arrows-rotate.svg",
+      "bytes": 1071,
+      "sha256": "0d0ead6a88be1d99e76d16886f91a2582984012a9b929764169f8d4080baf084"
+    },
+    {
+      "file": "source/home/assets/fontawesome/bars.svg",
+      "bytes": 588,
+      "sha256": "2befb3dfad1c92d1099119de4dcc8145d88279a2825108d3df23910952437403"
+    },
+    {
+      "file": "source/home/assets/fontawesome/chart-column.svg",
+      "bytes": 815,
+      "sha256": "9ff310f1a3c88c54ec585dedad6216b93942456d6b046b4cbb26c16ba0d98e61"
+    },
+    {
+      "file": "source/home/assets/fontawesome/chart-line.svg",
+      "bytes": 648,
+      "sha256": "9100c634433b9983696c6f2e270b1e4220d9d2b1c1fa15b8a9833fee2bd8c972"
+    },
+    {
+      "file": "source/home/assets/fontawesome/circle-check.svg",
+      "bytes": 484,
+      "sha256": "c2c10f625e45e8a918a6d74a063670394ad0a5078b6dd88d92f9a5ac7cb6d612"
+    },
+    {
+      "file": "source/home/assets/fontawesome/database.svg",
+      "bytes": 723,
+      "sha256": "24b1524527739d559a587af07aefa6f5a109563598dab198fe478f4e5c58d9e7"
+    },
+    {
+      "file": "source/home/assets/fontawesome/diagram-project.svg",
+      "bytes": 647,
+      "sha256": "66706ecf3772ae35b0f6ef2e7edcda0cd606962c680f0d51eabef683025f1eea"
+    },
+    {
+      "file": "source/home/assets/fontawesome/file-lines.svg",
+      "bytes": 698,
+      "sha256": "15c0a0e17726508ae605db9c8e7af169899fe9080bc063f8e471bb16634eb41b"
+    },
+    {
+      "file": "source/home/assets/fontawesome/file-signature.svg",
+      "bytes": 1236,
+      "sha256": "12ae07fb86fac63a95393e061d2b0e2f5229da443eb99b7fef2210f809e0318c"
+    },
+    {
+      "file": "source/home/assets/fontawesome/laptop-code.svg",
+      "bytes": 798,
+      "sha256": "cf43c30a6cf4c5875460b6047b072faa759773707b66a3192c92e3b3fd66e1f8"
+    },
+    {
+      "file": "source/home/assets/fontawesome/link.svg",
+      "bytes": 1069,
+      "sha256": "457e42a7322ec454c3ae81e07d998e7521726a805b61515c6b29443f0f0bbc21"
+    },
+    {
+      "file": "source/home/assets/fontawesome/magnifying-glass-plus.svg",
+      "bytes": 667,
+      "sha256": "d59ab2be19e6fc75dcb8bf2b44e72ece498350a7115e668b5b835e95131bf5b7"
+    },
+    {
+      "file": "source/home/assets/fontawesome/manifest.json",
+      "bytes": 7316,
+      "sha256": "ccc51cf5e36e7049bebe8641da8e9fa92a14193f8c65b6cf698eb05d7d5c0517"
+    },
+    {
+      "file": "source/home/assets/fontawesome/microchip.svg",
+      "bytes": 1129,
+      "sha256": "77a55c089932e596715e0cf05cf6aeb19ed1f270f51caaa8a8786b14f2feaaeb"
+    },
+    {
+      "file": "source/home/assets/fontawesome/minus.svg",
+      "bytes": 391,
+      "sha256": "acceb4dd14955a27ead112580f14b3904b6a8307b29265c4412636b52e762084"
+    },
+    {
+      "file": "source/home/assets/fontawesome/mobile-screen-button.svg",
+      "bytes": 483,
+      "sha256": "f276933de58663b05b1d24007f51b0e068ad9ce478b2726c6c2934832fe6202c"
+    },
+    {
+      "file": "source/home/assets/fontawesome/people-arrows.svg",
+      "bytes": 1163,
+      "sha256": "20c8910a580e4daf82cec3d64a601efbafd09390dfd8b399335f93401f4b0c04"
+    },
+    {
+      "file": "source/home/assets/fontawesome/plus.svg",
+      "bytes": 492,
+      "sha256": "8c1c05a38a072f42156542c6f3c6f91f0188e7bf27990f81ff42f42e0719c7e5"
+    },
+    {
+      "file": "source/home/assets/fontawesome/receipt.svg",
+      "bytes": 958,
+      "sha256": "21abd1cc3c0d95e67bc5aa80520fe1f9214589476b0227d9556abdc325ae34aa"
+    },
+    {
+      "file": "source/home/assets/fontawesome/shield-halved.svg",
+      "bytes": 562,
+      "sha256": "047f2d9eda8a9a2758eb5465ff6da85eaf91ffa3013d419331b7ff1338ef932e"
+    },
+    {
+      "file": "source/home/assets/fontawesome/sliders.svg",
+      "bytes": 1018,
+      "sha256": "13e84a1fd007222ee9d817fbc1b128ca0689cada15e0c1dfc644d2ca507abfea"
+    },
+    {
+      "file": "source/home/assets/fontawesome/up-right-from-square.svg",
+      "bytes": 759,
+      "sha256": "9411df123fc1f257d1d83706c2eeaee284e50cb9d5058dc0b53a7d7d54c36c45"
+    },
+    {
+      "file": "source/home/assets/fontawesome/user-tie.svg",
+      "bytes": 703,
+      "sha256": "5b300a7eeca803caf000f21d8371e87e87822c83338fe3dab4060ecf5f1d4dbb"
+    },
+    {
+      "file": "source/home/assets/fontawesome/users.svg",
+      "bytes": 908,
+      "sha256": "54748bc3c0b2da7a65e982e0ff14fed16ec959bb42aeaa137862a97d16a95a57"
+    },
+    {
+      "file": "source/home/assets/fontawesome/volume-high.svg",
+      "bytes": 1112,
+      "sha256": "aedb54e5b7ed3e576b19c7cf89ee9af6d84b12467b0cdd5474c0e7b0ca2c1b84"
+    },
+    {
+      "file": "source/home/assets/fontawesome/volume-xmark.svg",
+      "bytes": 708,
+      "sha256": "72878ed70a6ddfbb1630dad58af41bc218b04fefaee35b3b0e5072e849b09cdc"
+    },
+    {
+      "file": "source/home/assets/fontawesome/window-maximize.svg",
+      "bytes": 497,
+      "sha256": "7a83e7e3a3baf15b7b7be5d9c9c2d76649b09ab6f71780b9b2167e450786ac1d"
+    },
+    {
+      "file": "source/home/assets/fontawesome/xmark.svg",
+      "bytes": 570,
+      "sha256": "591fea2ae19d968cac870da11a403068f083a84bb909ee248e11353ed319ec8d"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/environments/RoomEnvironment.js",
+      "bytes": 4899,
+      "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/EffectComposer.js",
+      "bytes": 8477,
+      "sha256": "4b8c855f28eed2570bed898adc0ab89c585a8a281ecb6d905c09d00697f9f50a"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/MaskPass.js",
+      "bytes": 4694,
+      "sha256": "7cd08eee9d5d6f5578beaddbdcbe9c384f6873810af27f22ab7db3ceeb127aa3"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/OutputPass.js",
+      "bytes": 4029,
+      "sha256": "f5b81c96e76b6b28b4b3ba8c41c4aeb982b1e03f3d82883242d951b2ab082fa2"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/Pass.js",
+      "bytes": 4218,
+      "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/RenderPass.js",
+      "bytes": 4112,
+      "sha256": "fd91229aacc5830e3984b0f2bdefcf566163ea028f4c1f1ab233fa6665a133ac"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/ShaderPass.js",
+      "bytes": 3228,
+      "sha256": "e2500a5913b26bbf5148ceaae644c6edcff06a18b01494ee37bf856353d2ab9d"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/postprocessing/UnrealBloomPass.js",
+      "bytes": 14388,
+      "sha256": "d92742959879b461f25348b2abddc7ca0d48527e7718340bcfa29fa771e2799a"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/shaders/CopyShader.js",
+      "bytes": 729,
+      "sha256": "a33057d5ac91c43304c186ac0e8816e62bb2ed471d3a00ff3018dfd5c0389718"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/shaders/LuminosityHighPassShader.js",
+      "bytes": 1291,
+      "sha256": "5044f780b6e6cf863947f64c36fe1587132f7fbe395ada863cd1e5f0388dcf1e"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/examples/jsm/shaders/OutputShader.js",
+      "bytes": 1876,
+      "sha256": "353479f77a8d7e2629d49ccac9fc2f5dbfdda5442e0adf867b00377a2fcb0cb2"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/three.core.min.js",
+      "bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/three.module.min.js",
+      "bytes": 338908,
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6"
+    },
+    {
+      "file": "source/home/assets/hero/vendor/version.json",
+      "bytes": 125,
+      "sha256": "fd6066101b32e5dc9b9b1fb75a9792b25b460a1108c31228e6b5048a6b144686"
+    },
+    {
+      "file": "source/home/assets/kobalt-original.svg",
+      "bytes": 2246,
+      "sha256": "a8290fbb95944531ae55f314aa76894f6539bd88c030cddbdaa62bb726bf9957"
+    },
+    {
+      "file": "source/home/assets/mineral-azul-no-espaco.png",
+      "bytes": 2308007,
+      "sha256": "92bacd05d17f94bf55929014ec9383a7a5ad233e0d90c2eb5f6632e582300479"
+    },
+    {
+      "file": "source/home/assets/systems.png",
+      "bytes": 1754804,
+      "sha256": "bac142a90d06b3c1d79c5c25da8c922ccb4eb3fc7a3a4f9d9e4ff4479b40cfed"
+    },
+    {
+      "file": "source/home/breathing.css",
+      "bytes": 20913,
+      "sha256": "af66a10d04e5e4b0354a284035161bc9649ee5818a263e803656de38e0e344c7"
+    },
+    {
+      "file": "source/home/build.py",
+      "bytes": 8905,
+      "sha256": "9cdb1fcba1e3ad609fbf6c40aa5279ee0aed288a64373217474365ad511c235d"
+    },
+    {
+      "file": "source/home/capabilities.css",
+      "bytes": 6813,
+      "sha256": "2fc9c12f7f1202c81fcb31c2d727fe88fa8d885166ed3d8cf767886df7ad5f76"
+    },
+    {
+      "file": "source/home/closing-card.css",
+      "bytes": 1979,
+      "sha256": "e63cfc4305306a33e8e8a02aa7d3c370a86abf4853b076c0afbed024725d645b"
+    },
+    {
+      "file": "source/home/fontawesome.css",
+      "bytes": 1929,
+      "sha256": "bcd954256492792268eb8c12eec1d1b0d4993cd4415fc74f0c7f9e16f049d918"
+    },
+    {
+      "file": "source/home/fontawesome.py",
+      "bytes": 1896,
+      "sha256": "51abeaca6fee7fe2ca10803626e76d66337bcc218d6f6df5f838d0cd1fc0882d"
+    },
+    {
+      "file": "source/home/hero-forge-shaders.js",
+      "bytes": 23509,
+      "sha256": "3b0e05f6001b9efa566ea55289fe368c66296196fef44e81a2daf4d3ef877b88"
+    },
+    {
+      "file": "source/home/hero-forge.css",
+      "bytes": 2704,
+      "sha256": "7173cecd94f31700c8edf97bee922cc5fe74ec1141b8834699655e092a7b76c9"
+    },
+    {
+      "file": "source/home/hero-forge.js",
+      "bytes": 8899,
+      "sha256": "d7c48034208dd9f09ffc07a8f802117be5b193853bab09ba99568ab72afe5307"
+    },
+    {
+      "file": "source/home/hero-mineral-3d.css",
+      "bytes": 3990,
+      "sha256": "4d464e4bafeaa545e4cff8eb32b7f97cebc2237aebd2d2e6df8d2b71cad0498c"
+    },
+    {
+      "file": "source/home/hero-mineral-3d.js",
+      "bytes": 26122,
+      "sha256": "cd67a478a4066f8aac7602879a6eeb56f1afded7caf4110b5a6e974c4194ac4a"
+    },
+    {
+      "file": "source/home/hero-transition.css",
+      "bytes": 3671,
+      "sha256": "e6ff0ac2d92f5abe11075442ce4f077d3a85fd8c5b9a7dd1cadd823b12787b73"
+    },
+    {
+      "file": "source/home/hero-transition.js",
+      "bytes": 86,
+      "sha256": "556ba9bc9a76c21780e0974f474d1e275211ecd5d6f4bb45e94203a1ee6b81a2"
+    },
+    {
+      "file": "source/home/media.css",
+      "bytes": 12219,
+      "sha256": "388f595af0b04714269a42b07942dff7754d1f1b77acc6cdd6b301b8631de931"
+    },
+    {
+      "file": "source/home/method-accordion.css",
+      "bytes": 4109,
+      "sha256": "bfd1c8b5bf0aea8d62051d4b4b44de37490962c0ae69d352c91ae7f441e01d11"
+    },
+    {
+      "file": "source/home/method-lab.css",
+      "bytes": 13607,
+      "sha256": "ed5e39fd6eec20dbfc41a63691b084400d3a5aaef2a8c08899245ac5b1cbb028"
+    },
+    {
+      "file": "source/home/method-lab.js",
+      "bytes": 6112,
+      "sha256": "d87d65e44c315b729f2fa3ab1bcaad0a88034400a986a6b311d0d05f0588b01b"
+    },
+    {
+      "file": "source/home/palette.css",
+      "bytes": 4172,
+      "sha256": "00d6a8973c97180f26a1f5d3eab43d6b8a1e90cfcbb3c9d0bab4ac15536485c8"
+    },
+    {
+      "file": "source/home/readability.css",
+      "bytes": 10801,
+      "sha256": "873572408f5159d9c194745a98d4ec88af0e68ee40a5bcdb4e50fd1e1442960f"
+    },
+    {
+      "file": "source/home/results.css",
+      "bytes": 6098,
+      "sha256": "d309326afda8b17a88c677d8e0016ed1ec90e045e20c9a5650713f42990179e6"
+    },
+    {
+      "file": "source/home/results.js",
+      "bytes": 1315,
+      "sha256": "5a3274c20b42e5086038da532263341e05fcdf1c1e49c05da571ccfe9c589b69"
+    },
+    {
+      "file": "source/home/script.js",
+      "bytes": 454,
+      "sha256": "33f353678cc99bb25559c49da3ca900b4f5844c2be6ee413c21b728cf092a0d5"
+    },
+    {
+      "file": "source/home/styles.css",
+      "bytes": 31967,
+      "sha256": "4c680db2f96be95c0edf5ff9ff2692a6dc3987c69261e77e1bccad83cbc1dafa"
+    },
+    {
+      "file": "source/home/template.html",
+      "bytes": 11614,
+      "sha256": "7071191721bfa5721381b0773146916bb1e2a0d41cb4a060fab882f7e059516e"
+    },
+    {
+      "file": "source/home/vendor/react-bits/LICENSE.md",
+      "bytes": 2060,
+      "sha256": "4bdd1fa59a6b7d5954bc3b213dbc34e455c635a94bbcecf9293553797d0fad02"
+    },
+    {
+      "file": "source/home/vendor/react-bits/LaserFlow.upstream.jsx",
+      "bytes": 33762,
+      "sha256": "667c00ca56cc7e25053e6a21acbe5bb054e8e6cf8549263f83abb0063db24ed3"
+    },
+    {
+      "file": "source/home/vendor/react-bits/provenance.json",
+      "bytes": 574,
+      "sha256": "63e6f98b27ee3c174cc4518e2cf5fb9f50e1babdfa145db08547efe3d8dbe849"
+    },
+    {
+      "file": "source/home/visual-copy.json",
+      "bytes": 18678,
+      "sha256": "8d58a0467899ec25a8f95d24a2a7ccc046d03062681b4ed0965adee7d3305bbb"
+    },
+    {
+      "file": "source/home/workflow.css",
+      "bytes": 3395,
+      "sha256": "999841a358e5f9db704050cea90ceedd57b78c9f262e501ba3225b4aad40021e"
+    },
+    {
+      "file": "source/home/workflow.js",
+      "bytes": 4605,
+      "sha256": "750d14cdadb7de8d3b57acdfa50a8e43a8a3a56b02d1f9ec490a20dcab601309"
+    },
+    {
+      "file": "style-layers.json",
+      "bytes": 421,
+      "sha256": "3f7f195e31a2ff8aa43753aca5d35149a15519c3364e27fdbb407e551c956c37"
+    }
+  ]
+}

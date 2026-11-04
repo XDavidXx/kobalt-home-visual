@@ -1,0 +1,29 @@
+/* A single reading hierarchy: section title, step names, one short explanation. */
+.method-accordion-section .method-lab-shell{display:grid;grid-template-columns:1fr 1.08fr;gap:6%;align-items:center}
+.method-accordion-section .method-content{min-width:0}
+.method-accordion-section .method-lab-heading{margin:0 0 72px;text-align:left}
+.method-accordion-section h2{font-size:clamp(2.65rem,4.1vw,4rem);line-height:1.12;letter-spacing:-.05em;max-width:600px}
+.method-accordion{border-bottom:1px solid #849fc137}
+.method-accordion-item{position:relative;border-top:1px solid #849fc137}
+.method-accordion-item h3{margin:0;font-size:1.375rem;line-height:1.4;font-weight:400}
+.method-accordion-trigger{display:grid;grid-template-columns:28px minmax(0,1fr) 18px;gap:18px;align-items:center;width:100%;min-height:74px;padding:19px 0;border:0;background:none;text-align:left;color:#a4b6cf;transition:color .3s;cursor:pointer}
+.method-accordion-trigger:hover,.method-accordion-item.is-active .method-accordion-trigger{color:#f1f6ff}
+.method-accordion-number{font:12px/1.5 var(--mono);letter-spacing:.5px;color:#849fbf}
+.method-accordion-item.is-active .method-accordion-number{color:#a9c8ff}
+.method-accordion-title{font-size:1.375rem;line-height:1.4;letter-spacing:-.3px}
+.method-accordion-mark{position:relative;display:block;width:14px;height:14px;color:#9ab5d9}
+.method-accordion-mark:before,.method-accordion-mark:after{content:'';position:absolute;background:currentColor;width:12px;height:1px;left:1px;top:6px}
+.method-accordion-mark:after{transform:rotate(90deg);transition:transform .3s}
+.method-accordion-item.is-active .method-accordion-mark:after{transform:rotate(0)}
+.method-accordion-panel{padding:0 20px 27px 46px;min-height:7.25rem}
+.method-accordion-panel p{font-size:1.125rem;line-height:1.7;color:#c4d0e2;max-width:430px;margin:0}
+.method-progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:#94bbff;transform:scaleX(0);transform-origin:left;pointer-events:none}
+.method-accordion-section[data-stage="3"] .method-progress{background:#8cdbce}
+.method-accordion-trigger:focus-visible{outline:2px solid #a4c9ff;outline-offset:5px}
+.method-accordion-section .method-viewport{grid-column:2;grid-row:1;height:560px;width:100%;align-self:center}
+.method-accordion-section .lab-world{top:calc(43% - 220px)}
+.method-accordion-section .lab-interaction-hint{bottom:28px;border-top:1px solid #819dc125;padding-top:19px;color:#91a8c6;font-size:.875rem}
+@media(max-width:1100px){.method-accordion-section .method-lab-shell{grid-template-columns:1fr 1fr;gap:5%}.method-accordion-section h2{font-size:3rem}.method-accordion-section .method-viewport{height:500px}.method-accordion-trigger{gap:14px}.method-accordion-title{font-size:1.25rem}.method-accordion-panel{padding-left:42px;padding-right:0;min-height:8.25rem}}
+@media(max-width:850px){.method-accordion-section .method-lab-shell{grid-template-columns:1fr;gap:36px}.method-accordion-section .method-content{width:100%;max-width:600px;margin:auto}.method-accordion-section .method-lab-heading{margin-bottom:60px}.method-accordion-section h2{font-size:clamp(2.65rem,6.5vw,3.5rem)}.method-accordion-section .method-viewport{grid-column:1;grid-row:2;height:425px;max-width:580px;justify-self:center}.method-accordion-panel{min-height:6.75rem}.method-accordion-section .lab-interaction-hint{bottom:0}}
+@media(max-width:580px){.method-accordion-section h2{font-size:2.6rem}.method-accordion-section .method-lab-heading{margin-bottom:52px}.method-accordion-trigger{grid-template-columns:24px minmax(0,1fr) 16px;gap:14px;min-height:70px;padding:18px 0}.method-accordion-title{font-size:1.25rem}.method-accordion-panel{font-size:1.0625rem;padding:0 0 26px 38px;min-height:8.5rem}.method-accordion-panel p{font-size:1.0625rem;line-height:1.7}.method-accordion-section .method-viewport{height:350px}.method-accordion-section .lab-interaction-hint{font-size:.8125rem;padding-top:16px}.method-accordion-section .method-lab-shell{gap:20px}}
+@media(prefers-reduced-motion:reduce){.method-accordion-trigger,.method-accordion-mark:after{transition:none}}

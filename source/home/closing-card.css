@@ -1,0 +1,14 @@
+.faq.section-space{min-height:0;column-gap:15%;row-gap:88px;padding-bottom:80px}
+.faq .contact-card{grid-column:1/-1;width:100%;min-height:30svh;display:flex;align-items:center;padding:40px 56px;background:linear-gradient(115deg,#2045bd,#3564ee);color:#fff;border-radius:4px;scroll-margin-top:24px}
+.contact-card:after{display:none}
+.contact-card .contact-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:64px;width:100%;text-align:left}
+.contact-card-copy{min-width:0}
+.faq .contact-card .eyebrow{justify-content:flex-start;color:#e1eaff;margin:0 0 20px;font-size:.75rem;line-height:1.6;letter-spacing:1.2px}
+.contact-card h3{font-size:clamp(32px,3.3vw,48px);line-height:1.12;letter-spacing:-.045em;font-weight:400;max-width:760px}
+.contact-card h3>span{color:#a3f2dd}
+.contact-card-action{width:280px;max-width:100%;min-width:0}
+.contact-card .button-white{width:100%;min-width:0;min-height:56px;justify-content:space-between;gap:24px;font-size:1rem}
+.contact-card .contact-microcopy{font-size:.875rem;line-height:1.6;color:#eff3ff;margin-top:14px;text-align:center}
+@media(max-width:1100px){.faq .contact-card{padding:40px}.contact-card .contact-inner{gap:36px}.contact-card h3{font-size:40px}.contact-card-action{width:250px}}
+@media(max-width:850px){.faq.section-space{display:grid;grid-template-columns:1fr;row-gap:0;padding-bottom:65px}.faq .faq-list{margin-top:55px}.faq .contact-card{margin-top:72px;padding:40px 36px}.contact-card .contact-inner{grid-template-columns:1fr;gap:28px}.contact-card h3{font-size:40px;max-width:590px}.contact-card-action{width:280px}}
+@media(max-width:580px){.faq.section-space{padding-bottom:48px}.faq .contact-card{margin-top:56px;padding:34px 26px}.faq .contact-card .eyebrow{margin-bottom:18px;letter-spacing:.9px}.contact-card h3{font-size:34px;line-height:1.15}.contact-card .contact-inner{gap:28px}.contact-card-action{width:100%}.contact-card .contact-microcopy{font-size:.875rem;margin-top:12px}}

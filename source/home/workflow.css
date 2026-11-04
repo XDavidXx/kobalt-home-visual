@@ -1,0 +1,42 @@
+/* Each role receives the signal before passing it to the next role. */
+.ecosystem-explained .flow-background:after{content:'';position:absolute;inset:0;background:rgba(0,0,0,.70);pointer-events:none}
+.ecosystem-explained .flow-poster{opacity:1;filter:none;transform:none;animation:none}
+.flow-heading h3,.flow-heading>.eyebrow,.flow-caption{text-shadow:0 2px 14px #000a}
+.flow-heading>.eyebrow{color:#e3ecfb}
+.workflow-track{gap:46px;isolation:isolate;margin-top:85px}
+.workflow-connections{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:1}
+.workflow-link-base{fill:none;stroke:#a2bfd63d;stroke-width:1}
+.workflow-transfer{fill:none;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;opacity:0;transition:opacity .25s}
+.workflow-packet{opacity:0;filter:drop-shadow(0 0 5px currentColor);transition:opacity .15s}
+.workflow-node{--role-rgb:112,217,244;position:relative;z-index:2;background:#0b192bd9;border-color:#9eb9da36;transition:border-color .45s,box-shadow .45s}
+.workflow-node:nth-of-type(2){--role-rgb:124,153,255}
+.workflow-node:nth-of-type(3){--role-rgb:181,154,255}
+.workflow-node:nth-of-type(4){--role-rgb:108,221,192}
+.workflow-node:before{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(140deg,rgba(var(--role-rgb),.23),rgba(var(--role-rgb),.045));opacity:0;transition:opacity .45s}
+.workflow-node>*{position:relative}
+.workflow-node .workflow-icon{line-height:0;padding:0;flex-shrink:0;transition:color .4s,border-color .4s,background-color .4s,box-shadow .4s}
+.workflow-icon>svg{display:block}
+.workflow-node .workflow-number{transition:color .4s}
+.workflow-node .workflow-icon.ai-icon{background:#14243b;color:#a6bddc}
+.workflow-node.is-active{border-color:rgba(var(--role-rgb),.95);box-shadow:0 0 0 1px rgba(var(--role-rgb),.2),0 0 30px rgba(var(--role-rgb),.16),inset 0 0 30px rgba(var(--role-rgb),.045)}
+.workflow-node.is-active:before{opacity:1}
+.workflow-node.is-active .workflow-icon{color:rgb(var(--role-rgb));border-color:rgba(var(--role-rgb),.9);background-color:rgba(var(--role-rgb),.16);box-shadow:0 0 27px rgba(var(--role-rgb),.23)}
+.workflow-node.is-active .workflow-number{color:rgb(var(--role-rgb))}
+@media(max-width:1050px){.workflow-track{gap:24px}}
+@media(max-width:850px){
+  .workflow-track{grid-template-columns:1fr;gap:44px;max-width:580px}
+  .workflow-node{min-height:150px;padding:28px 28px 28px 136px;text-align:left;display:flex;flex-direction:column;justify-content:center}
+  .workflow-number{font-size:7px}
+  .workflow-node .workflow-icon{position:absolute;left:30px;top:calc(50% - 33px);width:66px;height:66px;margin:0}
+  .workflow-node h4{display:block;font-size:20px;min-height:0;margin:13px 0 8px}
+  .workflow-node p{font-size:12px;max-width:none;min-height:0;margin:0}
+}
+@media(max-width:580px){
+  .workflow-track{gap:40px;margin-top:48px}
+  .workflow-node{min-height:160px;padding:26px 20px 26px 105px}
+  .workflow-node .workflow-icon{left:23px;top:calc(50% - 28px);width:56px;height:56px}
+  .workflow-number{font-size:6px}
+  .workflow-node h4{font-size:18px;line-height:1.3;margin-top:12px}
+  .workflow-node p{font-size:11px;line-height:1.7}
+}
+@media(prefers-reduced-motion:reduce){.workflow-node,.workflow-node:before,.workflow-node .workflow-icon,.workflow-node .workflow-number,.workflow-transfer,.workflow-packet{transition:none}}
